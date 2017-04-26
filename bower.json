@@ -1,0 +1,17 @@
+{
+  "name": "newsoo",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "tianhuifeis <tianhuifeis@126.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/tianhuifei/NewSoo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
