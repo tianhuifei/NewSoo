@@ -1,11 +1,31 @@
 @charset "utf-8";
 
 /** 田会飞 **/
+/**头部**/
 
+.navbar-brand{height: 90px;line-height:55px;}
 
+.navbar-neusoo{background-color:#29355b;border-radius:0;color:#FFF;}
+.navbar-neusoo.navbar-default .navbar-nav > li > a{color:#FFF;}
+.navbar-neusoo.navbar-default .navbar-nav > li > a:hover{color:#60d2ed;}
+.navbar-neusoo .navbar-neusoo-ul .active a{color:#60d2ed !important;background-color: transparent !important;}
+.navbar-neusoo .navbar-toggle{margin-top:25px;}
+@media (min-width: 768px){
+    .nav-h-90{height:90px;line-height:55px !important;}
+}
 
+.navbar-neusoo .dropdown.open .dropdown-toggle{background-color: #10193a;}
 
-
+.navbar-neusoo.navbar-default .navbar-nav > .open > a,
+.navbar-neusoo.navbar-default .navbar-nav > .open > a:hover,
+.navbar-neusoo.navbar-default .navbar-nav > .open > a:focus{background-color: #10193a;color:#00b3ee;}
+@media (max-width: 767px) {
+    .navbar-neusoo.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #dcdbdb;
+    }
+}
+.navbar-neusoo .brand-logo{width:175px;background: url("../images/brand-logo.png") no-repeat center center;background-color:#e345a2;}
+.ns-line-bottom{border:1px solid #EEE;padding:0}
 /** 田会飞 **/
 
 
