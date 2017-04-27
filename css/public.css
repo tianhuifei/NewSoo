@@ -2,6 +2,7 @@
 
 /** 田会飞 **/
 /**头部**/
+ul{list-style:none;padding:0;margin:0;}
 .m-t-10{margin-top:10px !important;}
 .p-t-10{padding-top:10px !important;}
 .navbar-brand{height: 90px;line-height:55px;}
@@ -28,6 +29,22 @@
 .navbar-neusoo .brand-logo{width:175px;background: url("../images/brand-logo.png") no-repeat center center;background-color:#e345a2;}
 .ns-line-bottom{border-bottom:1px solid #EEE;padding:33px 10px 23px;}
 .ns-line-bottom h4{color:#474747; }
+.data-table-box{border:1px solid #d2d2d2;border-radius:5px 5px 0 0;}
+.data-table-box .table-header{padding:33px 10px;background-color:#dee7ff;}
+.data-table-ul{text-align: center;font-size: 0;}
+.data-table-ul li{display:inline-block;text-align: center;font-size:12px;color:#666;padding:0 15px;}
+.data-table-ul li span.soo {margin-right: 11px;}
+.data-table-ul li span.soo-gou{color:#5be19c;}
+.data-table-ul li span.soo-error{color:#e3456a;}
+.data-table-ul li span.soo-quan{color:#f39800;}
+
+
+
+
+
+
+
+
 /** 田会飞 **/
 
 

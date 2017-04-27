@@ -1,10 +1,10 @@
 
 @font-face {font-family: "soo";
-  src: url('font/iconfont.eot?t=1493105792998'); /* IE9*/
-  src: url('font/iconfont.eot?t=1493105792998#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('font/iconfont.woff?t=1493105792998') format('woff'), /* chrome, firefox */
-  url('font/iconfont.ttf?t=1493105792998') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('font/iconfont.svg?t=1493105792998#soo') format('svg'); /* iOS 4.1- */
+  src: url('font/iconfont.eot?t=1493258980385'); /* IE9*/
+  src: url('font/iconfont.eot?t=1493258980385#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('font/iconfont.woff?t=1493258980385') format('woff'), /* chrome, firefox */
+  url('font/iconfont.ttf?t=1493258980385') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('font/iconfont.svg?t=1493258980385#soo') format('svg'); /* iOS 4.1- */
 }
 
 .soo {
@@ -25,13 +25,15 @@
 
 .soo-circle:before { content: "\e632"; }
 
-.soo-gou:before { content: "\e666"; }
-
 .soo-search-min:before { content: "\e612"; }
 
 .soo-jia:before { content: "\e622"; }
 
+.soo-gou:before { content: "\e62e"; }
+
 .soo-analyze:before { content: "\e619"; }
+
+.soo-quan:before { content: "\e618"; }
 
 .soo-baocun:before { content: "\e66b"; }
 
@@ -42,4 +44,6 @@
 .soo-daoru:before { content: "\e601"; }
 
 .soo-see:before { content: "\e738"; }
+
+
 
