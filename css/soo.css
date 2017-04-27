@@ -23,17 +23,15 @@
 
 .soo-search:before { content: "\e611"; }
 
-.soo-circle:before { content: "\e632"; }
-
 .soo-search-min:before { content: "\e612"; }
 
 .soo-jia:before { content: "\e622"; }
 
-.soo-gou:before { content: "\e62e"; }
+.soo-ok:before { content: "\e62e"; }
 
 .soo-analyze:before { content: "\e619"; }
 
-.soo-quan:before { content: "\e618"; }
+.soo-circle:before { content: "\e618"; }
 
 .soo-baocun:before { content: "\e66b"; }
 
