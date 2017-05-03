@@ -71,8 +71,20 @@ ul{list-style:none;padding:0;margin:0;}
 
 
 /** 李晶 **/
-
-
+/*按钮系列*/
+.btn-all{
+    height: 26px;
+    line-height: 30px;
+    background: #e8f4ff;
+    border-radius: 20px;
+    color:#6b95ff;
+    text-align: center;
+    font-size: 12px;
+}
+.btn-foreign{
+    background: #f5f5f5;
+    color:#6e6e6e;
+}
 
 
 /** 李晶 **/

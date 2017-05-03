@@ -1,0 +1,74 @@
+.mltSearch{
+    font-size: 12px;
+}
+.mltSearch .btn-all{
+    margin-bottom: 5px;
+}
+.caret{
+    margin-left: 15px;
+}
+.form-control{
+    background: #eeeeee;
+    height: 46px;
+    font-size: 12px;
+}
+.form-style{
+    height:229px !important;
+}
+.mltSearch .btn-mltSearch{
+    /*width: 96px;*/
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    background: #7798ff;
+    color:#fff;
+    font-size: 12px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.mltSearch .an-date-font{
+    margin-top: 15px;
+}
+.mltSearch .an-date{
+    background: #eeeeee;
+    height: 49px;
+    line-height: 49px;
+    text-align: center;
+    border-radius: 5px;
+}
+.mltSearch .an-date span.soo-analyze{
+    margin-right: 15px;
+    color: #6b95ff;
+}
+.mltSearch div.date-line{
+    border-bottom:1px solid #6b95ff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mltSearch .btn-patentName{
+    height: 30px;
+    margin-top: 8px;
+}
+.mltSearch span.soo-add{
+    font-size: 32px;
+    border-radius: 50%;
+    background: #5be19c;
+    color: #fff;
+}
+.form-position{
+    position: relative;
+}
+.mltSearch .btn-delete{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #e345a2;
+    position: absolute;
+    top:8px;
+    right:25px;
+    cursor: pointer;
+}
+
+
+
