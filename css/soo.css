@@ -15,6 +15,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.soo-delete:before { content: "\e602"; }
+
+.soo-edit:before { content: "\e603"; }
+
 .soo-add:before { content: "\e600"; }
 
 .soo-search-max:before { content: "\e66c"; }
@@ -26,6 +30,8 @@
 .soo-search-min:before { content: "\e612"; }
 
 .soo-jia:before { content: "\e622"; }
+
+.soo-query:before { content: "\e6d8"; }
 
 .soo-ok:before { content: "\e62e"; }
 

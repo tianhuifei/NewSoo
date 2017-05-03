@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>语法规则</title>
+    <title>字段详解</title>
     <link rel="stylesheet" href="../../css/bootstrap.css">
     <link rel="stylesheet" href="../../css/public.css">
     <link rel="stylesheet" href="../../css/soo.css">
+    <link rel="stylesheet" href="css/fieldNameDetail.css">
 
 
     <!--[if lt IE 9]>
@@ -70,64 +71,98 @@
 </nav>
 
 <div class="container-fluid">
-    <div class="ns-line-bottom p-t-10">
-        <h4>语法规则</h4>
+    <div class="ns-line-bottom p-t-10 clearfix">
+        <button type="button" class="btn btn-default glyphicon glyphicon-list pull-left btn-tab"></button>
+        <h4 class="pull-left">字段代码详解</h4>
     </div>
 
-    <div class="data-table-box">
+    <div class="container">
 
-        <table class="table table-striped">
-            <thead class="data-table-thead">
-            <tr>
-                <th class="w20">序号</th>
-                <th class="w50 t-l">语法规则</th>
-                <th class="w30 t-l">范例</th>
+        <div class="panel panel-default">
+            <div class="panel-heading neu-tab">
 
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
+                <ul class="neu-tab-box clearfix">
+                    <li class="neu-tab-li active "><a href="javascript:void(0);">常用</a></li>
+                    <li class="neu-tab-li "><a href="javascript:void(0);">技术主题</a></li>
+                    <li class="neu-tab-li "><a href="javascript:void(0);">分类信息</a></li>
+                    <li class="neu-tab-li "><a href="javascript:void(0);">相关人</a></li>
+                    <li class="neu-tab-li "><a href="javascript:void(0);">相关号码</a></li>
+                    <li class="neu-tab-li "><a href="javascript:void(0);">相关日期</a></li>
+                    <li class="neu-tab-li "><a href="javascript:void(0);">相关地址</a></li>
+                    <li class="neu-tab-li "><a href="javascript:void(0);">法律信息</a></li>
+                    <li class="neu-tab-li "><a href="javascript:void(0);">其他字段</a></li>
+                </ul>
 
-                <td>01</td>
-                <td class="t-l">输入格式为：字段代码=搜索词</td>
-                <td class="t-l">ti=汽车</td>
-
-            </tr>
-            <tr>
-                <td>02</td>
-                <td class="t-l">每个搜索词应使用逻辑算法（and/or/not）连接，并用英文括号括起来</td>
-                <td class="t-l">ti=（汽车 or car）</td>
-
-            </tr>
-            <tr>
-                <td>03</td>
-                <td class="t-l">多个搜索词在不同的字段中搜索时，需要分别指定字段，并在字段之间使用逻辑运 算符连接，必要的时候需要加英文括号来明确运算优先级</td>
-                <td class="t-l">（ti=汽车 or ab=car）and pa=奇瑞</td>
-
-            </tr>
-            </tbody>
-        </table>
+            </div>
+            <div class="panel-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-striped text-center table-h-center file-detail">
+                        <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>字段代码</th>
+                            <th>字段名称</th>
+                            <th>适用国家</th>
+                            <th>搜索示例</th>
+                            <th>备注</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>01</td>
+                            <td>ti</td>
+                            <td>专利名称</td>
+                            <td>仅中国，美国</td>
+                            <td>ti=（锂离子or电池）</td>
+                            <td>所有标题，包括中文、英文及其他语言</td>
+                        </tr>
+                        <tr>
+                            <td>02</td>
+                            <td>ticn</td>
+                            <td>专利名称(中文)</td>
+                            <td>仅中国，美国</td>
+                            <td>ticn=（锂离子or电池）</td>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
     </div>
+
+
+
+
+
+
 
 </div>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <script src="../../js/jquery-1.12.3.js"></script>
 <script src="../../js/bootstrap.js"></script>
+<script>
+$(document).ready(function(){
+    $(".neu-tab").find(".neu-tab-li").click(function(){
+        if(!$(this).hasClass("active")){
+            $(this).addClass("active").siblings().removeClass("active");
+        }
+    })
+
+    $(".btn-tab").click(function(e){
+        if(!$(this).hasClass("active")){
+            $(this).addClass("active");
+            $(".neu-tab-box").addClass("list-show");
+        }
+        e.stopPropagation();
+    });
+    $(document).click(function(){
+        $(".list-show").removeClass("list-show");
+        $(".btn-tab").removeClass("active");
+    })
+})
+</script>
 </body>
 </html>
