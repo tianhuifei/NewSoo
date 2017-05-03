@@ -1,0 +1,53 @@
+<h3>transition  是从一个值平滑的过渡到另一个值</h3>
+
+<p>transition:<"过渡属性名称"> &nbsp;<"过渡时间"></p>
+
+<p>浏览器:</p>
+<p>  谷歌 加前缀 -webkit-transition</p>
+<p>  火狐 加前缀 -moz-transition</p>
+<p> 欧朋 加前缀 -o-transition</p>
+<h3>transition是由两个属性组成 分别是property  duration</h3>
+<p>-webkit-transition-property:background-color</p>
+<p>-webkit-transition-duration:3s</p>
+<h3>我还遗漏了一个属性 -webkit-transition-delay</h3>
+<p>这是指定过渡开始之前的延迟时间</p>
+
+<h3>多个属性过渡</h3>
+<p>-webkit-transition:<'属性1'> <'时间'>,<'属性2'> <'时间'>,<'属性3'> <'时间'></p>
+
+<h3>transition的过渡模式</h3>
+<p>-webkit-transition:<'属性'> <'时间'> <'模式'></p>
+<p>-webkit-transition-timing-function:</p>
+<h4>-webkit-transition-timing-function的取值:</h4>
+<ul>
+    <li>ease <span>缓慢开始,缓慢结果</span></li>
+    <li>linear <span>匀速</span></li>
+    <li>ease-in <span>缓慢开始</span></li>
+    <li>ease-out <span>缓慢结束</span></li>
+    <li>ease-in-out <span>缓慢开始,缓慢结束</span></li>
+</ul>
+
+<style>
+    .box{width:200px;height:100px;background-color:#69c;}
+    .box:hover{width:900px;}
+    .ease{-webkit-transition:width 1s ease;}
+    .linear{-webkit-transition:width 1s linear;}
+    .ease-in{-webkit-transition:width 1s ease-in;}
+    .ease-out{-webkit-transition:width 1s ease-out;}
+    .ease-in-out{-webkit-transition:width 1s ease-in-out;}
+</style>
+
+<p>ease</p>
+<div class="box ease"></div>
+
+<p>linear</p>
+<div class="box linear"></div>
+
+<p>ease-in</p>
+<div class="box ease-in"></div>
+
+<p>ease-out</p>
+<div class="box ease-out"></div>
+
+<p>ease-in-out</p>
+<div class="box ease-in-out"></div>
