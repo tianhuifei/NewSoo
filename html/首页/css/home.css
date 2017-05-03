@@ -188,3 +188,7 @@
     text-align: center;
 }
 /*近期检索历史结束*/
+.home-container-bottom-table span.soo{
+    color:#ccccff;
+    cursor: pointer;
+}
