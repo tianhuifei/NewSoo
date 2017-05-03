@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h1>animation</h1>
+<h3>animation 其实是增强的过渡,从一种CSS样式过渡到另一种样子的过程中,具有了更多选择,更多控制同,更多灵活性</h3>
+<p>animation 属性介绍</p>
+<ul>
+    <li>-webkit-animation-delay 是动画开始前的延迟时间</li>
+    <li>-webkit-animation-direction 动画循环播放的时候是否反向播放</li>
+    <li>-webkit-animation-duration 动画持续时间</li>
+    <li>-webkit-animation-iteration-count 动画播放次数</li>
+    <li>-webkit-animation-name 指定动画名称</li>
+    <li>-webkit-animation-play-state 允许动画暂停和重新播放</li>
+    <li>-webkit-animation-timing-function 动画模式</li>
+</ul>
+<h3>animation简写</h3>
+<p>animation: animation-name animation-duration animation-timing-function animation-delay animation-iteration-count </p>
+<h1>示例;</h1>
+<style>
+    p.t1 {padding:5px;border:medium double black;background-color:lightgray;
+        font-family: sans-serif;}
+    .span {font-size:large;border:medium solid black;}
+    #banana:hover {
+        -webkit-animation-duration:1s;
+        -webkit-animation-iteration-count: infinite ;
+        -webkit-animation-timing-function: ease-in-out;
+        -webkit-animation-name: GrowShrink ;
+    }
+
+    @-webkit-keyframes GrowShrink {
+        to{
+            font-size:x-large;
+            border: medium solid green;
+            background-color: green;
+            color:white;
+            padding:4px;
+        }
+    }
+</style>
+<p class="t1">China established a strategic <span id="banana" class="span">partnership with the Czech Republic</span> on Tuesday during the visit by President Xi Jinping to the European nation.
+    It is the first state visit by a Chinese president since diplomatic ties were established with the former Czechoslovakia 67 years ago.
+    Xi and his Czech counterpart Milos Zeman signed a joint statement on the partnership after official talks. They also witnessed the signing of nine documents, covering fields such as electronic business and investment.
+</p>
+<h3>更复杂的关键帧</h3>
+<h4>定义初始状态</h4>
+<p>animation: animation-name animation-duration animation-timing-function animation-delay animation-iteration-count </p>
+<style>
+    #test1:hover{
+        -webkit-animation:test1 1s ease-in-out infinite;
+    }
+    @-webkit-keyframes test1 {
+        from{
+            font-size:xx-large;
+            background-color: #6699cc;
+        }
+        to{
+            font-size:x-large;
+            border: medium solid green;
+            background-color: green;
+            color:white;
+            padding:4px;
+        }
+    }
+</style>
+<p class="t1">China established a strategic <span id="test1" class="span">partnership with the Czech Republic</span> on Tuesday during the visit by President Xi Jinping to the European nation.
+    It is the first state visit by a Chinese president since diplomatic ties were established with the former Czechoslovakia 67 years ago.
+    Xi and his Czech counterpart Milos Zeman signed a joint statement on the partnership after official talks. They also witnessed the signing of nine documents, covering fields such as electronic business and investment.
+</p>
+<h4>指定中间关键帧</h4>
+<p>animation: animation-name animation-duration animation-timing-function animation-delay animation-iteration-count </p>
+<style>
+    #test2:hover {-webkit-animation:test2 500ms alternate  ease infinite;}
+    @-webkit-keyframes test2 {
+        from{
+            font-size:xx-large;
+            background-color: #6699cc;
+        }
+        50% {background-color: yellow;padding:1px}
+        to{
+            font-size:x-large;
+            border: medium solid green;
+            background-color: green;
+            color:white;
+            padding:4px;
+        }
+    }
+</style>
+<p class="t1">China established a strategic <span id="test2" class="span">partnership with the Czech Republic</span> on Tuesday during the visit by President Xi Jinping to the European nation.
+    It is the first state visit by a Chinese president since diplomatic ties were established with the former Czechoslovakia 67 years ago.
+    Xi and his Czech counterpart Milos Zeman signed a joint statement on the partnership after official talks. They also witnessed the signing of nine documents, covering fields such as electronic business and investment.
+</p>
+</body>
+</html>
