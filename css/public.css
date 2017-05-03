@@ -3,6 +3,7 @@
 /** 田会飞 **/
 /**头部**/
 ul{list-style:none;padding:0;margin:0;}
+.p-0{padding:0 !important;}
 .m-b-0{margin-bottom:0 !important;}
 .m-t-10{margin-top:10px !important;}
 .p-t-10{padding-top:10px !important;}
@@ -10,6 +11,7 @@ ul{list-style:none;padding:0;margin:0;}
 .w50{width:50%;}
 .w30{width:30%;}
 .t-l{text-align: left !important;}
+.table-h-center th{text-align: center !important;}
 
 .navbar-brand{height: 90px;line-height:55px;}
 
@@ -51,8 +53,14 @@ ul{list-style:none;padding:0;margin:0;}
 .soo-error.color-error{color:#e3456a; }
 .soo-circle.color-circle{color:#f39800; }
 .data-scope-info{padding:23px 0;color:#666;}
+.panel-heading.neu-tab{padding:0 !important;}
+.neu-tab .neu-tab-box{background-color:#FFF;border-radius:4px;font-size:0;}
+.neu-tab .neu-tab-box .neu-tab-li{padding:10px;display:inline-block;position:relative;}
+.neu-tab .neu-tab-box .neu-tab-li{border-right:1px solid #EEE;}
+.neu-tab .neu-tab-box .neu-tab-li a{color:#666;padding:10px 20px;display:block;font-size:14px;text-align: center;}
 
-
+.neu-tab .neu-tab-box .neu-tab-li.active::after{display:block;content:" ";height:4px;position:absolute;left:0;right:0;bottom:0;background-color:#6b95ff;}
+.neu-tab .neu-tab-box .neu-tab-li.active a{color:#6b95ff;}
 
 
 
