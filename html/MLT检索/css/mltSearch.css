@@ -69,18 +69,18 @@
     right:25px;
     cursor: pointer;
 }
-/*.mltSearch .btn{*/
-    /*width: 100%;*/
-/*}*/
-/*.mltSearch  .btn-mlt{*/
-    /*background:#bfbfbf;*/
-    /*color:#fff;*/
-    /*margin-bottom: 5px;*/
-/*}*/
-/*.mltSearch .btn-search{*/
-    /*background:#7798ff;*/
-    /*color:#fff;*/
-/*}*/
+.mltSearch .btn{
+    width: 100%;
+}
+.mltSearch  .btn-mlt{
+    background:#bfbfbf;
+    color:#fff;
+    margin-bottom: 5px;
+}
+.mltSearch .btn-search{
+    background:#7798ff;
+    color:#fff;
+}
 
 
 
