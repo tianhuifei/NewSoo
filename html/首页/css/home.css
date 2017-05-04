@@ -35,6 +35,10 @@
     .home-container-top-conventionalSearch-extends ul li input{
         margin-top:4px;
     }
+    .home-container-top-conventionalSearch-extends ul li{
+        display: block;
+        float: none;
+    }
 }
 .home-container-top{
     background: url("../images/homebg.png") no-repeat;
@@ -111,7 +115,7 @@
     font-size: 12px;
 }
 .home-container-top-conventionalSearch-Scope .btn-china{
-    width:74px;
+    min-width:74px;
     height: 26px;
     background: transparent;
     border: 1px solid #999999;

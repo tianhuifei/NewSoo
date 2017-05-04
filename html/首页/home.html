@@ -16,8 +16,6 @@
     <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body>
-
     <div class="home-container-top clear">
         <div class="home-container-top-header">
             <nav class="navbar navbar-default navbar-neusoo">
@@ -71,9 +69,10 @@
                 </div>
             </nav>
         </div>
+        <div class="container">
         <div class="home-container-top-conventionalSearch">
             <div class="home-container-top-conventionalSearch-fields">
-                <div class="container-fluid">
+                <!--<div class="container-fluid">-->
                     <div class="row">
                         <div class="col-lg-1 col-md-4 col-xs-6 fields">全部</div>
                         <div class="col-lg-1 col-md-4 col-xs-6 fields fields-active">文献号</div>
@@ -84,17 +83,17 @@
                         <div class="col-lg-1 col-md-4 col-xs-6 fields">地址</div>
                         <div class="col-lg-1 col-md-4 col-xs-6 fields"><i class="glyphicon glyphicon-cog"></i></div>
                     </div>
-                </div>
+                <!--</div>-->
             </div>
             <div class="home-container-top-conventionalSearch-search">
-                <div class="container-fluid">
+                <!--<div class="container-fluid">-->
                     <div class="row">
                         <div class="col-lg-8 col-md-12 col-xs-12 home-container-top-conventionalSearch-searchInput clear">
                             <img src="images/search.png" width="22" height="22">
                             <input type="text" placeholder="请输入文献号，如：CN201010230977"/>
                         </div>
                         <div class="col-lg-2 col-md-8 col-xs-12"><div class="home-container-top-conventionalSearch-btn"><div>搜&nbsp;&nbsp;&nbsp;索</div></div></div>
-                        <div class="col-lg-1 col-md-3 col-xs-12 home-container-top-conventionalSearch-extends">
+                        <div class="col-lg-2 col-md-4 col-xs-12 home-container-top-conventionalSearch-extends">
                             <ul class="clear">
                                 <li class="clear">
                                     <input type="checkbox" checked id="home-conventionalSearch-wordExtends">
@@ -111,10 +110,10 @@
                             </ul>
                         </div>
                     </div>
-                </div>
+                <!--</div>-->
             </div>
             <div class="home-container-top-conventionalSearch-Scope">
-                <div class="container-fluid">
+                <!--<div class="container-fluid">-->
                     <div class="row">
                         <div class="col-lg-2 col-md-3 col-xs-12 home-container-top-conventionalSearch-Scope-first">
                             <button class="btn-china btn-china-active btn-style" type="button">中&nbsp;国</button>
@@ -131,11 +130,11 @@
                             <button class="btn-china" type="button">失&nbsp;效</button>
                         </div>
                     </div>
-                </div>
+                <!--</div>-->
             </div>
         </div>
         <div class="home-container-top-searchMode">
-            <div class="container-fluid">
+            <!--<div class="container-fluid">-->
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-xs-6">
                         <div class="home-container-top-searchMode-seniorSearch">
@@ -158,72 +157,69 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            <!--</div>-->
         </div>
+    </div>
     </div>
     <div class="home-container-bottom">
         <div class="home-container-bottom-h1">
-           <div class="container-fluid">
-               <div class="row">
-                   <div class="col-lg-12 col-md-12 col-xs-12 home-container-bottom-h1-cursor">
-                       <span>近期检索历史</span><span class="caret"></span>
-                   </div>
+           <div class="row">
+               <div class="col-lg-12 col-md-12 col-xs-12 home-container-bottom-h1-cursor">
+                   <span>近期检索历史</span><span class="caret"></span>
                </div>
            </div>
        </div>
         <div class="home-container-bottom-table">
-            <div class="container-fluid">
-                <table class="table table-striped">
-                    <thead>
-                    <tr>
-                        <th>编号</th>
-                        <th>检索式</th>
-                        <th>数据范围</th>
-                        <th>创建日期</th>
-                        <th>结果</th>
-                        <th>操作</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td><span>25</span></td>
-                        <td><span>t1=(hjskbl)</span></td>
-                        <td><span>数据范围=全部</span></td>
-                        <td><span>2016-07-24 15:30:24</span></td>
-                        <td><span>707</span></td>
-                        <td>
-                            <span class="soo soo-see"></span>
-                            <span class="soo soo-analyze"></span>
-                            <span class="soo soo-jia"></span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><span>25</span></td>
-                        <td><span>t1=(hjskbl)</span></td>
-                        <td><span>数据范围=全部</span></td>
-                        <td><span>2016-07-24 15:30:24</span></td>
-                        <td><span>707</span></td>
-                        <td>
-                            <span class="soo soo-see"></span>
-                            <span class="soo soo-analyze"></span>
-                            <span class="soo soo-jia"></span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><span>25</span></td>
-                        <td><span>t1=(hjskbl)</span></td>
-                        <td><span>数据范围=全部</span></td>
-                        <td><span>2016-07-24 15:30:24</span></td>
-                        <td><span>707</span></td>
-                        <td>
-                            <span class="soo soo-see"></span>
-                            <span class="soo soo-analyze"></span>
-                            <span class="soo soo-jia"></span>
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>编号</th>
+                    <th>检索式</th>
+                    <th>数据范围</th>
+                    <th>创建日期</th>
+                    <th>结果</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><span>25</span></td>
+                    <td><span>t1=(hjskbl)</span></td>
+                    <td><span>数据范围=全部</span></td>
+                    <td><span>2016-07-24 15:30:24</span></td>
+                    <td><span>707</span></td>
+                    <td>
+                        <span class="soo soo-see"></span>
+                        <span class="soo soo-analyze"></span>
+                        <span class="soo soo-jia"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td><span>25</span></td>
+                    <td><span>t1=(hjskbl)</span></td>
+                    <td><span>数据范围=全部</span></td>
+                    <td><span>2016-07-24 15:30:24</span></td>
+                    <td><span>707</span></td>
+                    <td>
+                        <span class="soo soo-see"></span>
+                        <span class="soo soo-analyze"></span>
+                        <span class="soo soo-jia"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td><span>25</span></td>
+                    <td><span>t1=(hjskbl)</span></td>
+                    <td><span>数据范围=全部</span></td>
+                    <td><span>2016-07-24 15:30:24</span></td>
+                    <td><span>707</span></td>
+                    <td>
+                        <span class="soo soo-see"></span>
+                        <span class="soo soo-analyze"></span>
+                        <span class="soo soo-jia"></span>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 <!--<span class="soo soo-add"></span>-->
