@@ -62,9 +62,10 @@ ul{list-style:none;padding:0;margin:0;}
 .neu-tab .neu-tab-box .neu-tab-li.active::after{display:block;content:" ";height:4px;position:absolute;left:0;right:0;bottom:0;background-color:#6b95ff;}
 .neu-tab .neu-tab-box .neu-tab-li.active a{color:#6b95ff;}
 
-
-
-
+/** 高级检索tab **/
+.soo-tab-main { display:inline-block;min-width:66px;padding:7px 9px;margin:0 5px;cursor:pointer;border-radius:2px;color:#333;font-size:12px;background-color:#e8f4ff;text-align:center;}
+.soo-tab-main.active{background-color:#6490ff;color:#FFF;}
+.soo-tab-main.disable{cursor: auto;background-color: #f5f5f5;color:#6e6e6e;}
 /** 田会飞 **/
 
 
