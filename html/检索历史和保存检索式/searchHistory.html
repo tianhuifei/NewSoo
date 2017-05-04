@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>检索历史和保存检索式</title>
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <link rel="stylesheet" href="../../css/public.css">
+    <link rel="stylesheet" href="../../css/soo.css">
+    <link rel="stylesheet" href="css/searchHistory.css">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-neusoo">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <!--响应按钮 -->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-nav" aria-expanded="false">
+                <span class="sr-only"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand brand-logo" href="javascript:void(0);"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="header-nav">
+            <ul class="nav navbar-nav navbar-neusoo-ul">
+                <li class="active"><a href="javascript:void(0);" class="nav-h-90">首页 <span class="sr-only">(current)</span></a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0);" class="dropdown-toggle nav-h-90" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">检索 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="javascript:void(0);">下拉1</a></li>
+                        <li><a href="javascript:void(0);">下拉2</a></li>
+                        <li><a href="javascript:void(0);">下拉3</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="javascript:void(0);">下拉4</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="javascript:void(0);">下拉5</a></li>
+                    </ul>
+                </li>
+                <li><a href="javascript:void(0);" class="nav-h-90">专题库</a></li>
+
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="javascript:void(0);" class="nav-h-90">通知中心</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0);" class="dropdown-toggle nav-h-90" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">用户 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="javascript:void(0);">下拉1</a></li>
+                        <li><a href="javascript:void(0);">下拉2</a></li>
+                        <li><a href="javascript:void(0);">下拉3</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="javascript:void(0);">下拉4</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="javascript:void(0);">下拉5</a></li>
+                    </ul>
+                </li>
+                <li><a href="javascript:void(0);" class="nav-h-90">帮助中心</a></li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+<div class="container-fluid">
+    <div class="searchHistory-modify">
+        <div class="row">
+            <div class="col-lg-1">
+                <div class="row">
+                    <div class="col-lg-12"><h5>检索式编辑区</h5></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12"><button type="button" class="btn btn-default glyphicon glyphicon-list pull-left btn-tab"></button></div>
+                </div>
+            </div>
+            <div class="col-lg-10">
+                <div class="row">
+                    <div class="col-lg-2"><div class="mltSearch"><button type="button" class="btn btn-search btn-word">字段与用法</button></div></div>
+                    <div class="col-lg-2"><div class="mltSearch"><button type="button" class="btn btn-search btn-word btn-original">语法规则</button></div></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading neu-tab">
+
+                                <ul class="neu-tab-box clearfix">
+                                    <li class="neu-tab-li active "><a href="javascript:void(0);">常用</a></li>
+                                    <li class="neu-tab-li "><a href="javascript:void(0);">技术主题</a></li>
+                                    <li class="neu-tab-li "><a href="javascript:void(0);">分类信息</a></li>
+                                    <li class="neu-tab-li "><a href="javascript:void(0);">相关人</a></li>
+                                    <li class="neu-tab-li "><a href="javascript:void(0);">相关号码</a></li>
+                                    <li class="neu-tab-li "><a href="javascript:void(0);">相关日期</a></li>
+                                    <li class="neu-tab-li "><a href="javascript:void(0);">相关地址</a></li>
+                                    <li class="neu-tab-li "><a href="javascript:void(0);">法律信息</a></li>
+                                    <li class="neu-tab-li "><a href="javascript:void(0);">其他字段</a></li>
+                                </ul>
+
+                            </div>
+                            <div class="panel-body p-0">
+                                <div class="table-responsive">
+                                    <table class="table table-striped text-center table-h-center file-detail">
+                                        <tbody>
+                                        <tr>
+                                            <td>IPC＝国际IPC分类</td>
+                                            <td>ECLA＝欧洲EC分类</td>
+                                            <td>UC＝美国UC分类</td>
+                                            <td>FI＝日本FI分类</td>
+                                            <td>FI＝日本F－term分类</td>
+                                            <td>LOC＝洛迦诺分类</td>
+                                            <td>CPC＝CPC分类</td>
+                                        </tr>
+                                        <tr>
+                                            <td>AP＝申请人</td>
+                                            <td>IN＝发明（设计）人</td>
+                                            <td>AT＝代理人</td>
+                                            <td>AGC＝代理机构</td>
+                                            <td>AP－ADD＝申请人地址</td>
+                                            <td>AP－COUNTRY＝申请人国家</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>PN＝公开（公告）号</td>
+                                            <td>AN＝申请号</td>
+                                            <td>PR＝优先权号</td>
+                                            <td>AD＝申请日</td>
+                                            <td>PD＝公开（公告）号</td>
+                                            <td>PR－DATE＝优先权日</td>
+                                            <td></td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-1">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+                <div class="row">
+                    <div class="col-lg-12"><textarea class="form-control form-style" rows="3" placeholder=""></textarea></div>
+                </div>
+                <div class="mltSearch operator-bottom-border">
+                    <div class="row" style="padding-left: 10px;padding-top: 10px;padding-right: 10px">
+                        <div class="col-lg-1"><button type="button" class="btn btn-search">AND</button></div>
+                        <div class="col-lg-1"><button type="button" class="btn btn-clear">OR</button></div>
+                        <div class="col-lg-1"><button type="button" class="btn btn-clear">NOT</button></div>
+                        <div class="col-lg-1"><button type="button" class="btn btn-clear">(</button></div>
+                        <div class="col-lg-1"><button type="button" class="btn btn-clear">)</button></div>
+                        <div class="col-lg-1"><button type="button" class="btn btn-clear">?</button></div>
+                        <div class="col-lg-1"><button type="button" class="btn btn-clear">#</button></div>
+                        <div class="col-lg-1"><button type="button" class="btn btn-clear">*</button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-1"><div class="mltSearch"><button type="button" class="btn btn-search btn-word btn-original">工具</button></div></div>
+        </div>
+        <div class="row mltSearch"  style="margin-top: 10px">
+            <div class="col-lg-2 col-lg-offset-5"><button type="button" class="btn btn-search btn-word btn-original">保存检索式</button></div>
+            <div class="col-lg-1"><button type="button" class="btn btn-search btn-word btn-original">清&nbsp;&nbsp;除</button></div>
+            <div class="col-lg-1"><button type="button" class="btn btn-search btn-word">检&nbsp;&nbsp;索</button></div>
+            <div class="col-lg-2"><button type="button" class="btn btn-search btn-word">检索并浏览</button></div>
+        </div>
+    </div>
+
+
+    <div class="searchHistory">
+        <div class="searchHistory-h1">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-xs-12 searchHistory-h1-cursor">
+                    <span>近期检索历史</span><span class="caret"></span>
+                </div>
+            </div>
+        </div>
+        <div class="mltSearch">
+            <div class="row">
+                <div class="col-lg-1 col-lg-offset-8"><button type="button" class="btn btn-search">保&nbsp;&nbsp;存</button></div>
+                <div class="col-lg-1"><button type="button" class="btn btn-clear">删&nbsp;&nbsp;除</button></div>
+                <div class="col-lg-1"><button type="button" class="btn btn-clear">导出历史</button></div>
+                <div class="col-lg-1"><button type="button" class="btn btn-clear">清空历史</button></div>
+            </div>
+        </div>
+        <div class="searchHistory-table">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>编号</th>
+                    <th>检索式</th>
+                    <th>数据范围</th>
+                    <th>创建日期</th>
+                    <th>结果</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><span>25</span></td>
+                    <td><span>t1=(hjskbl)</span></td>
+                    <td><span>数据范围=全部</span></td>
+                    <td><span>2016-07-24 15:30:24</span></td>
+                    <td><span>707</span></td>
+                    <td>
+                        <span class="soo soo-see"></span>
+                        <span class="soo soo-analyze"></span>
+                        <span class="soo soo-jia"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td><span>25</span></td>
+                    <td><span>t1=(hjskbl)</span></td>
+                    <td><span>数据范围=全部</span></td>
+                    <td><span>2016-07-24 15:30:24</span></td>
+                    <td><span>707</span></td>
+                    <td>
+                        <span class="soo soo-see"></span>
+                        <span class="soo soo-analyze"></span>
+                        <span class="soo soo-jia"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td><span>25</span></td>
+                    <td><span>t1=(hjskbl)</span></td>
+                    <td><span>数据范围=全部</span></td>
+                    <td><span>2016-07-24 15:30:24</span></td>
+                    <td><span>707</span></td>
+                    <td>
+                        <span class="soo soo-see"></span>
+                        <span class="soo soo-analyze"></span>
+                        <span class="soo soo-jia"></span>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!--<span class="soo soo-add"></span>-->
+<!--<span class="soo soo-analyze"></span>-->
+
+<script src="../../js/jquery-1.12.3.js"></script>
+<script src="../../js/bootstrap.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".neu-tab").find(".neu-tab-li").click(function(){
+            if(!$(this).hasClass("active")){
+                $(this).addClass("active").siblings().removeClass("active");
+            }
+        })
+
+        $(".btn-tab").click(function(e){
+            if(!$(this).hasClass("active")){
+                $(this).addClass("active");
+                $(".neu-tab-box").addClass("list-show");
+            }
+            e.stopPropagation();
+        });
+        $(document).click(function(){
+            $(".list-show").removeClass("list-show");
+            $(".btn-tab").removeClass("active");
+        })
+    })
+</script>
+</body>
+</html>
