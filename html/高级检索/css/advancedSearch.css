@@ -1,21 +1,47 @@
 @charset "utf-8";
 .search-top{}
 .search-top .search-row{}
-.search-top .search-row .search-t-left{float:left;width:10%;}
+.search-top .search-row .search-t-left{position:relative;float:left;width:10%;}
 .search-top .search-row .search-t-left .search-title{padding-right:30px;}
 
-.search-top .search-row .search-t-right{float:left;width:90%;}
-.search-top .search-row .search-t-right .search-t-r-row{margin-bottom:12px;}
-.search-top .search-row .search-t-right .search-t-r-row .search-t-r-left{float:left;width:7%;}
-.search-top .search-row .search-t-right .search-t-r-row .search-t-r-right{float:left;width:93%;}
+.search-top .search-row .search-t-right{position:relative;float:left;width:90%;}
+.search-top .search-row .search-t-right .search-t-r-row{position:relative;margin-bottom:3px;}
+.search-top .search-row .search-t-right .search-t-r-row .search-t-r-left{position:relative;float:left;width:7%;}
+.search-top .search-row .search-t-right .search-t-r-row .search-t-r-right{position:relative;float:left;width:93%;}
 .search-title{color:#505050;font-size:12px;text-align: right}
+.bottom-line{padding-bottom:10px;}
+.bottom-line::after{position:absolute;bottom:0;left:0;right:0;content:" ";height:1px;background-color:#ededed;}
+.search-tip-right{position:absolute;right:0;top:0;color:#666;font-size:12px;}
+.search-tip-right a{color:#666;font-size:12px;}
 
 
+/*** 平板 **/
+@media (min-width: 768px) and (max-width: 992px) {
+    .search-top{}
+    .search-top .search-row{}
+    .search-top .search-row .search-t-left{float:left;width:100%;}
+    .search-top .search-row .search-t-left .search-title{padding-right:30px;}
 
+    .search-top .search-row .search-t-right{float:left;width:100%;}
+    .search-top .search-row .search-t-right .search-t-r-row{margin-bottom:12px;}
+    .search-top .search-row .search-t-right .search-t-r-row .search-t-r-left{float:left;width:100%;}
+    .search-top .search-row .search-t-right .search-t-r-row .search-t-r-right{float:left;width:100%;}
+    .search-title{color:#505050;font-size:12px;text-align: left;}
+}
 
+/*** 手机 **/
+@media (max-width: 768px) {
+    .search-top{}
+    .search-top .search-row{}
+    .search-top .search-row .search-t-left{float:left;width:100%;}
+    .search-top .search-row .search-t-left .search-title{padding-right:30px;}
 
-
-
+    .search-top .search-row .search-t-right{float:left;width:100%;}
+    .search-top .search-row .search-t-right .search-t-r-row{margin-bottom:12px;}
+    .search-top .search-row .search-t-right .search-t-r-row .search-t-r-left{float:left;width:100%;}
+    .search-top .search-row .search-t-right .search-t-r-row .search-t-r-right{float:left;width:100%;}
+    .search-title{color:#505050;font-size:12px;text-align: left;}
+}
 
 
 
