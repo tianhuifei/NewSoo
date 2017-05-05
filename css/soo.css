@@ -21,6 +21,8 @@
 
 .soo-add:before { content: "\e600"; }
 
+.soo-pass:before { content: "\e61b"; }
+
 .soo-search-max:before { content: "\e66c"; }
 
 .soo-pdf:before { content: "\e63f"; }
@@ -30,6 +32,8 @@
 .soo-search-min:before { content: "\e612"; }
 
 .soo-jia:before { content: "\e622"; }
+
+.soo-account:before { content: "\e60c"; }
 
 .soo-query:before { content: "\e6d8"; }
 
@@ -47,9 +51,8 @@
 
 .soo-daoru:before { content: "\e601"; }
 
-.soo-riqi-copy:before { content: "\e604"; }
+.soo-date:before { content: "\e604"; }
 
 .soo-see:before { content: "\e738"; }
-
 
 
