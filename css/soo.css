@@ -29,9 +29,13 @@
 
 .soo-search:before { content: "\e611"; }
 
+.soo-next:before { content: "\e617"; }
+
 .soo-search-min:before { content: "\e612"; }
 
 .soo-jia:before { content: "\e622"; }
+
+.soo-last-page:before { content: "\e65c"; }
 
 .soo-account:before { content: "\e60c"; }
 
@@ -45,6 +49,8 @@
 
 .soo-baocun:before { content: "\e66b"; }
 
+.soo-previous:before { content: "\e60d"; }
+
 .soo-light:before { content: "\e8e4"; }
 
 .soo-error:before { content: "\e6bc"; }
@@ -53,6 +59,6 @@
 
 .soo-date:before { content: "\e604"; }
 
+.soo-first-page:before { content: "\e69c"; }
+
 .soo-see:before { content: "\e738"; }
-
-
