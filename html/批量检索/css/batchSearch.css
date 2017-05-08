@@ -1,0 +1,45 @@
+.mltSearch .btn-all,.mltSearch .btn{
+    margin-bottom: 10px;
+}
+.batchSearch .font{
+    color:#b8b8b8;
+}
+.batchSearch .font-1{
+    height: 26px;
+    line-height: 26px;
+}
+.batchSearch .font-2{
+    height: 46px;
+    line-height: 46px;
+}
+.batchSearch .font-3{
+    margin-bottom: 22px;
+}
+.batchSearch .btn-choseFile{
+    height: 46px;
+    font-size: 14px;
+}
+.batchSearch .form-control{
+    height: 334px !important;
+    background: #eee;
+    margin-bottom: 23px;
+}
+.btn{
+    color: #fff;
+}
+.btn-clear{
+    background: #bfbfbf;
+}
+.btn-lookResults{
+    background: #5be19c !important;
+}
+.batchSearch  .form-control-2{
+    height: 302px;
+    margin-bottom: 57px;
+}
+.batchSearch .number-1{
+    color:#8da8ff;
+}
+.batchSearch .number-2{
+    color:#e558a9;
+}
