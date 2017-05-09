@@ -1,0 +1,104 @@
+.fullheight{
+    height: 100%;
+}
+.circle_off{
+    display: inline-block;
+    border-radius: 50%;
+    border:2px #6490ff solid;
+    width: 10px;
+    height: 10px;
+
+    margin: 0 15px;
+}
+.circle_on{
+    background-color: #6490ff;
+}
+@media (max-width:990px) {
+    .left-list{
+        position: fixed;
+        left :-150px;
+        top: 0;
+        z-index: 55;
+        background-color: white;
+        transform: translateX(-150px);
+        -webkit-transition-duration: 1s;
+    }
+}
+@media (min-width:990px){
+    .left-list-hide{
+        transform: translateX(0)!important;
+    }
+    .left-list-show{
+        transform: translateX(0) !important;
+    }
+}
+.left-list-show{
+    transform: translateX(150px);
+    -webkit-transition-duration: 1s;
+}
+.left-list-hide{
+    transform: translateX(-150px);
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #474747;
+    background-color: #dee7ff;
+}
+.nav-pills > li > a {
+    border-radius: 0;
+}
+.border_r{
+    border-right: 1px solid #dcdcdc;
+}
+.Sys-control{
+    padding-bottom: 20px;
+}
+.userchange-content .ns-line-bottom{
+    margin-bottom: 0;
+}
+/*基本布局结束*/
+.add-padding{
+    padding-top: 15px;
+    color: #666666;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+ .lg-margin{
+    margin-bottom: 20px;
+    height: 45px;
+}
+.userchange .lg-margin label{
+   /* padding-top: 11px;*/
+}
+ .lg-margin input{
+background-color: #eeeeee;
+height: 45px;
+}
+@media (min-width: 768px) and (max-width: 992px){
+    .lg-margin > div{
+        margin-bottom: 20px;
+    }
+    .lg-margin{
+        margin-bottom: 0;
+    }
+    .btn-margin{
+        margin-bottom: 20px;
+    }
+
+}
+@media (max-width: 768px){
+    .add-padding {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+.lg-margin button{
+    border-radius: 0;
+    height: 45px;
+    width: 100%;
+}
+.bg-yes{
+    background-color: #7798ff;
+}
+.useradd{
+    display: none;
+}
