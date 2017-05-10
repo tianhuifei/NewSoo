@@ -11,18 +11,8 @@ padding-bottom: 20px;
 .seeShow{
     display: inline-block;
 }
-.circle_off{
-    display: inline-block;
-    border-radius: 50%;
-    border:2px #6490ff solid;
-    width: 10px;
-    height: 10px;
 
-    margin: 0 15px;
-}
-.circle_on{
-    background-color: #6490ff;
-}
+
 .square_off{
     display: inline-block;
     border:2px #6490ff solid;
@@ -30,13 +20,7 @@ padding-bottom: 20px;
     height: 10px;
     margin: 0 15px;
 }
-.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-    color: #474747;
-    background-color: #dee7ff;
-}
-.nav-pills > li > a {
-     border-radius: 0;
-}
+
 .inputPosition{
     width: 232px;
     margin: 0 19px;

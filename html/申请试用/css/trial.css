@@ -1,18 +1,7 @@
 .fullheight{
     height: 100%;
 }
-.circle_off{
-    display: inline-block;
-    border-radius: 50%;
-    border:2px #6490ff solid;
-    width: 10px;
-    height: 10px;
 
-    margin: 0 15px;
-}
-.circle_on{
-    background-color: #6490ff;
-}
 @media (max-width:990px) {
     .left-list{
         position: fixed;
@@ -39,13 +28,7 @@
 .left-list-hide{
     transform: translateX(-150px);
 }
-.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-    color: #474747;
-    background-color: #dee7ff;
-}
-.nav-pills > li > a {
-    border-radius: 0;
-}
+
 .border_r{
     border-right: 1px solid #dcdcdc;
 }
