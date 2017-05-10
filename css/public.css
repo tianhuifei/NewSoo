@@ -146,6 +146,203 @@ ul{list-style:none;padding:0;margin:0;}
     cursor: pointer;
 }
 /*近期检索历史结束*/
+/*MLT专利公共区*/
+.p-input{
+    background: #eeeeee;
+    height: 45px;
+    line-height: 45px;
+    color:#505050;
+    margin-bottom: 10px;
+}
+.p-btn-add{
+    height:45px;
+    margin-bottom: 10px;
+}
+.p-font{
+    height:45px;
+    line-height: 45px;
+    padding-left: 35px;
+}
+.p-font-l-35{
+    padding-left: 0px;
+}
+.p-icon{
+    margin-top:0px;
+    font-size: 12px;
+}
+.p-top-icon{
+    display: inline-block;
+    width: 0;
+    height:0;
+    vertical-align: middle;
+    border-left:4px solid transparent;
+    border-right:4px solid transparent;
+    border-bottom:4px dashed;
+    margin-left: 18px;
+}
+.p-bottom-icon{
+    margin-left: 18px;
+}
+.p-list-result-num{
+    padding-left: 16px;
+}
+@media (max-width:768px ) {
+    .p-font{
+        padding-left: 0px;
+    }
+    .p-font-title{
+        font-size: 14px;
+    }
+    .p-icon div{
+        float: left;
+    }
+    .p-top-icon,.p-bottom-icon{
+        margin-top: 7px;
+        margin-right: 5px;
+    }
+    .p-top-icon{
+        margin-left: 0px;
+    }
+    .p-bottom-icon{
+        margin-left: 5px;
+    }
+    .p-list-result-num{
+        padding-left: 0px;
+    }
+}
+@media (min-width: 768px){
+    .p-font-l-35{
+        padding-left: 30px;
+    }
+    .p-icon{
+        margin-top:25px;
+    }
+}
+@media (min-width: 992px){
+    .p-font-l-35{
+        padding-left: 0px;
+    }
+    .p-icon{
+        margin-top:0px;
+    }
+}
+@media (min-width: 1200px){
+    .p-font-l-35{
+        padding-left: 0px;
+    }
+    .p-icon{
+        margin-top:0px;
+    }
+}
+.p-font-color a{
+    color:#7299ff;
+    text-decoration: underline;
+}
+.p-font-color{
+    color:#7299ff;
+}
+.p-title{
+    min-height: 88px;
+    background: #dee7ff;
+}
+.p-font-title{
+    /*padding-top: 18px;*/
+    font-weight: bold;
+}
+.p-btn-valid{
+    background: #5be19c !important;
+    margin-bottom: 10px;
+}
+.p-label{
+    font-weight: normal;
+}
+.p-other-message{
+    min-height: 42px;
+    background: #f4f5f9;
+    font-size: 12px;
+}
+.p-other-font{
+    height: 27px;
+    line-height: 27px;
+    margin-top: 4px;
+    display: inline-block;
+    margin-left: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
+.p-btn-highlight{
+    margin-bottom: 10px;
+}
+.p-other-font-active{
+    background:#dde2ef;
+    text-align: center;
+}
+.p-search-list-title{
+    background: #7798ff;
+    min-height: 33px;
+    line-height: 33px;
+    color: #ffffff;
+    padding-left: 22px;
+    margin-bottom: 6px;
+}
+.p-search-list-title span{
+    padding-right: 5px;
+}
+.p-list-ul{
+    color:#6699ff;
+    overflow-y: auto;
+    font-size: 12px;
+}
+.p-list-ul li{
+    min-height: 65px;
+    line-height: 33px;
+    border-bottom: 1px solid #f8f8f8;
+}
+.p-list-ul p{
+    min-width: 70px;
+    color:#666666;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.p-list-ul input{
+    margin-right: 10px;
+}
+.p-list-ul label{
+    display: inline;
+    font-weight: normal;
+    min-width: 40px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+input.p-check-all{
+    margin-right: 10px;
+}
+.p-search-list{
+    border-left:1px solid #f8f8f8;
+    border-right:1px solid #f8f8f8;
+}
+.p-search-list-content{
+    padding-left: 10px;
+    font-size: 12px;
+}
+.p-search-list-content label{
+    font-weight: normal;
+}
+.p-search-list-operate{
+    border-bottom: 1px solid #f8f8f8;
+    height: 50px;
+}
+.p-search-list-li-1{
+    border-top:1px solid #f8f8f8;
+}
+.p-search-list-content input,.p-search-list-content label{
+    cursor: pointer;
+}
+/*MLT专利公共区结束*/
+
 
 /** 李晶 **/
 
