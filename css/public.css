@@ -341,6 +341,9 @@ input.p-check-all{
 .p-search-list-content input,.p-search-list-content label{
     cursor: pointer;
 }
+.p-other-message .soo{
+    font-size: 18px;
+}
 /*MLT专利公共区结束*/
 
 
