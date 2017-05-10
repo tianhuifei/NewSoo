@@ -256,10 +256,10 @@
     $("#p-check-all").click(function () {
         var checkboxStatus = $("#p-check-all").is(":checked");
         if(checkboxStatus){
-            $(".p-list-ul").find("input").attr("checked",true);
+            $(".p-list-ul").find("input").prop("checked",true);
         }
         else{
-            $(".p-list-ul").find("input").attr("checked",false);
+            $(".p-list-ul").find("input").prop("checked",false);
         }
     })
 </script>
