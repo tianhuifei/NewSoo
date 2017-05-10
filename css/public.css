@@ -168,6 +168,7 @@ ul{list-style:none;padding:0;margin:0;}
 }
 .p-icon{
     margin-top:0px;
+    font-size: 12px;
 }
 .p-top-icon{
     display: inline-block;
@@ -258,6 +259,7 @@ ul{list-style:none;padding:0;margin:0;}
 .p-other-message{
     min-height: 42px;
     background: #f4f5f9;
+    font-size: 12px;
 }
 .p-other-font{
     height: 27px;
@@ -290,6 +292,7 @@ ul{list-style:none;padding:0;margin:0;}
 .p-list-ul{
     color:#6699ff;
     overflow-y: auto;
+    font-size: 12px;
 }
 .p-list-ul li{
     min-height: 65px;
@@ -297,7 +300,7 @@ ul{list-style:none;padding:0;margin:0;}
     border-bottom: 1px solid #f8f8f8;
 }
 .p-list-ul p{
-    width: 70px;
+    min-width: 70px;
     color:#666666;
     overflow: hidden;
     white-space: nowrap;
@@ -323,6 +326,10 @@ input.p-check-all{
 }
 .p-search-list-content{
     padding-left: 10px;
+    font-size: 12px;
+}
+.p-search-list-content label{
+    font-weight: normal;
 }
 .p-search-list-operate{
     border-bottom: 1px solid #f8f8f8;
@@ -333,9 +340,6 @@ input.p-check-all{
 }
 .p-search-list-content input,.p-search-list-content label{
     cursor: pointer;
-}
-.p-mltPatent-content{
-    background: red;
 }
 /*MLT专利公共区结束*/
 
