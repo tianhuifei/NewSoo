@@ -45,6 +45,8 @@
 
 .soo-analyze:before { content: "\e619"; }
 
+.soo-contrast:before { content: "\e7b1"; }
+
 .soo-circle:before { content: "\e618"; }
 
 .soo-baocun:before { content: "\e66b"; }
@@ -52,6 +54,8 @@
 .soo-previous:before { content: "\e60d"; }
 
 .soo-light:before { content: "\e8e4"; }
+
+.soo-select:before { content: "\e668"; }
 
 .soo-error:before { content: "\e6bc"; }
 
