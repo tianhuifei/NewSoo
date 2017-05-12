@@ -1,0 +1,92 @@
+.familyPatent-content{
+    border-left:1px solid #f8f8f8;
+    border-right:1px solid #f8f8f8;
+    border-bottom:1px solid #f8f8f8;
+    padding:20px;
+}
+/*左侧的导航*/
+@media (max-width:990px) {
+    .left-list{
+        position: fixed;
+        left :-250px;
+        top: 0;
+        z-index: 55;
+        background-color: white;
+        transform: translateX(-250px);
+        -webkit-transition-duration: 1s;
+    }
+}
+@media (min-width:990px){
+    .left-list-hide{
+        transform: translateX(0)!important;
+    }
+    .left-list-show{
+        transform: translateX(0) !important;
+    }
+}
+.left-list-show{
+    transform: translateX(250px);
+    -webkit-transition-duration: 1s;
+}
+.left-list-hide{
+    transform: translateX(-250px);
+}
+
+.familyPatent-content-title{
+    color:#7fa1ff;
+    margin-bottom: 37px;
+}
+.familyPatent-content-body,.familyPatent-content-title{
+    font-size: 12px;
+    width: 100%;
+}
+.familyPatent-content-text{
+    margin-bottom: 42px;
+}
+.familyPatent-view-title{
+    font-weight: bold;
+    margin-bottom: 24px;
+    display: inline-block;
+}
+.familyPatent-view-color{
+    color:#a2b7ff;
+}
+.familyPatent-view-hidden{
+    width: 100%;
+}
+@media (max-width: 768px){
+    .familyPatent-view-hidden{
+        width:100px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        display: inline-block;
+        vertical-align: bottom;
+        margin-bottom: 24px;
+    }
+}
+@media (min-width: 1200px){
+    .familyPatent-view-hidden{
+        width:100px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        display: inline-block;
+        vertical-align: bottom;
+        margin-bottom: 24px;
+    }
+}
+.familyPatent-content thead tr th{
+    background: #f7f7f7;
+    padding: 20px 10px;
+    font-size: 12px;
+    color: #666
+}
+.familyPatent-content tbody tr td{
+    padding: 20px 10px;
+    font-size: 12px;
+    color: #666;
+}
+.m-b-10{
+    margin-bottom: 10px;
+}

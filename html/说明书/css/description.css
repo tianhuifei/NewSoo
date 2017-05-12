@@ -1,0 +1,65 @@
+.description-content{
+    border-left:1px solid #f8f8f8;
+    border-right:1px solid #f8f8f8;
+    border-bottom:1px solid #f8f8f8;
+    padding:20px;
+}
+/*左侧的导航*/
+@media (max-width:990px) {
+    .left-list{
+        position: fixed;
+        left :-250px;
+        top: 0;
+        z-index: 55;
+        background-color: white;
+        transform: translateX(-250px);
+        -webkit-transition-duration: 1s;
+    }
+}
+@media (min-width:990px){
+    .left-list-hide{
+        transform: translateX(0)!important;
+    }
+    .left-list-show{
+        transform: translateX(0) !important;
+    }
+}
+.left-list-show{
+    transform: translateX(250px);
+    -webkit-transition-duration: 1s;
+}
+.left-list-hide{
+    transform: translateX(-250px);
+}
+/*左侧导航结束*/
+.description-content-title{
+    color:#7fa1ff;
+    margin-bottom: 14px;
+}
+.description-content-body,.description-content-title{
+    font-size: 12px;
+    width: 100%;
+}
+.description-content-text{
+    margin-bottom: 42px;
+}
+.description-content-img{
+    width: 1800px;
+    height:230px;
+    overflow: auto;
+}
+.description-content-img-1{
+    width: 276px;
+    height:206px;
+    background: #dee7ff;
+    float: left;
+    margin-right: 10px;
+}
+.description-content-body-img{
+    max-width: 992px;
+    overflow-x: auto;
+}
+.m-b-10{
+    margin-bottom: 10px;
+}
+

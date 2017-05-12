@@ -264,6 +264,9 @@ ul{list-style:none;padding:0;margin:0;}
     min-height: 88px;
     background: #dee7ff;
 }
+.p-radio{
+    cursor: pointer;
+}
 .p-font-title{
     /*padding-top: 18px;*/
     font-weight: bold;
@@ -271,9 +274,6 @@ ul{list-style:none;padding:0;margin:0;}
 .p-btn-valid{
     background: #5be19c !important;
     margin-bottom: 10px;
-}
-.p-label{
-    font-weight: normal;
 }
 .p-other-message{
     min-height: 42px;
@@ -359,6 +359,9 @@ input.p-check-all{
 }
 .p-search-list-content input,.p-search-list-content label{
     cursor: pointer;
+}
+.p-other-message .soo{
+    font-size: 18px;
 }
 /*MLT专利公共区结束*/
 
