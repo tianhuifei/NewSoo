@@ -1,0 +1,60 @@
+.lawInformation-content{
+    border-left:1px solid #f8f8f8;
+    border-right:1px solid #f8f8f8;
+    border-bottom:1px solid #f8f8f8;
+    padding:20px;
+}
+/*左侧的导航*/
+@media (max-width:990px) {
+    .left-list{
+        position: fixed;
+        left :-250px;
+        top: 0;
+        z-index: 55;
+        background-color: white;
+        transform: translateX(-250px);
+        -webkit-transition-duration: 1s;
+    }
+}
+@media (min-width:990px){
+    .left-list-hide{
+        transform: translateX(0)!important;
+    }
+    .left-list-show{
+        transform: translateX(0) !important;
+    }
+}
+.left-list-show{
+    transform: translateX(250px);
+    -webkit-transition-duration: 1s;
+}
+.left-list-hide{
+    transform: translateX(-250px);
+}
+/*左侧导航结束*/
+.lawInformation-content-title{
+    color:#7fa1ff;
+    margin-bottom: 37px;
+}
+.lawInformation-content-body,.lawInformation-content-title{
+    font-size: 12px;
+    width: 100%;
+}
+.lawInformation-content-text{
+    margin-bottom: 42px;
+}
+.lawInformation-view-title{
+    font-weight: bold;
+    margin-bottom: 24px;
+    display: inline-block;
+}
+.d-i-b{
+    display: inline-block;
+    margin-bottom: 24px;
+}
+.lawInformation-view-color{
+   color: #7fa1ff;
+}
+.lawInformation-content-body table th,.lawInformation-content-body table td{
+    border:0px solid transparent !important;
+}
