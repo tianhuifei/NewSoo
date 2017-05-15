@@ -12,6 +12,9 @@
         transform: translateX(-150px);
         -webkit-transition-duration: 1s;
     }
+    .hidden{
+        display: block !important;
+    }
 }
 @media (min-width:990px){
     .left-list-hide{
@@ -44,6 +47,10 @@
     margin-bottom: 20px;
     height: 45px;
 }
+.lg-margin-big{
+    margin-bottom: 20px;
+    height: 230px;
+}
 .add-padding{
     padding-top: 15px;
     color: #666666;
@@ -54,7 +61,12 @@
     background-color: #eeeeee;
     height: 45px;
 }
-@media (min-width: 768px) and (max-width: 992px){
+.lg-margin textarea{
+    background-color: #eeeeee;
+    height: 230px;
+    width: 100%;
+}
+@media (min-width: 768px) and (max-width: 990px){
     .lg-margin > div{
         margin-bottom: 20px;
     }
@@ -66,10 +78,24 @@
     }
 
 }
+
+.test{    height: 45px;
+    line-height: 45px;
+    text-align: right;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
 @media (max-width: 768px){
     .add-padding {
         padding-left: 15px;
         padding-right: 15px;
+    }
+    .postscript label{
+        padding-left: 0;
+    }
+    .postscript>div{
+        text-align:left;
     }
 }
 .lg-margin button{
@@ -79,4 +105,152 @@
 }
 .bg-yes{
     background-color: #7798ff;
+}
+.lable-padding{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.form-control {
+    display: inline-block;
+    width: 94%;
+}
+.lg-margin .must{
+    color: red;
+    font-size: 20px;
+    position: absolute;
+    left: 94%;
+    top: 12px;
+}
+.pst-r{
+    position: relative;
+}
+
+.postscript{
+    padding-left: 15px;
+    padding-right: 30px;
+}
+.postscript label{
+    padding-right: 0px;
+}
+@media (min-width: 992px) {
+    .col-md-115{
+        width: 87.5%;
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        float: left;
+    }
+    .col-md-15{
+        width: 12.5%;
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        float: left;
+    }
+}
+.apply-dropdown button
+{
+    background-color: #eeeeee;
+    height: 45px;
+    position: relative;  text-align: left;
+}
+.apply-dropdown span{
+    position: absolute;
+    top: 20px;
+    left: 92%;
+}
+.apply-dropdown{
+    width: 94%;
+}
+.apply-dropdown ul{
+    width: 100%;
+}
+.first-tip{
+    background: url("../images/first.png") repeat-x;
+}
+.first-tip2{
+    background: url("../images/second.png");
+}
+.first-tip3{
+    background: url("../images/second3_05.png");
+}
+.second-tip1{
+    background: url("../images/second1_03.png");
+}
+.second-tip2{
+    background: url("../images/second2_03.png");
+}
+.third-tip3{
+    background: url("../images/third3_03.png");
+}
+.height-tip{
+    height: 40px;
+    margin-bottom: 20px;
+}
+.height-tip>div{
+    height: 100%;
+    text-align: center;
+    line-height: 40px;
+    background-size: 100% 100%;
+    margin: 5px 0;
+}
+.forget-first-page{
+    height: 100%;
+    width: 100%;
+
+}
+.forget-pwd{
+    width: 450px;
+    height: 220px;
+    margin: auto;
+    margin-top: 100px;
+}
+.forget-pwd label{
+    width: 22%;
+    text-align: right;
+}
+.forget-pwd .pwd-row div{
+    display: inline-block;
+}
+.forget-pwd .pwd-row input{
+    background-color: #eeeeee;
+    height: 45px;
+}
+
+.pwd-row{
+    margin: 20px 0;
+}
+.next-next{
+    width: 70%;
+    margin-left: 23%;
+    height: 45px;
+}
+.email-input1{
+    width: 47%;
+}
+.code-input2{
+    width: 74%;
+}
+.send-code{
+    height: 45px;
+}
+@media (max-width: 450px) {
+    .forget-pwd{
+        width: 91%;
+        height: 220px;
+        margin: auto;
+        margin-top: 100px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .send-code{
+        display: block;
+        margin-left: 23%;
+        margin-top: 8px;
+    }
+    .pwd-row .email-input1,.pwd-row .code-input2{
+        width: 74%;
+    }
 }

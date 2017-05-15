@@ -89,3 +89,6 @@ height: 45px;
 .useradd{
     display: none;
 }
+.inline-b{
+    display: inline-block;
+}
