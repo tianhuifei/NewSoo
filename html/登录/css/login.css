@@ -15,8 +15,8 @@ html,body{height:100%;}
 .login-bg .login-model{
     background: #fff;
     border-radius: 8px;
-    padding-left: 40px;
-    padding-right: 40px;
+    /*padding-left: 40px;*/
+    /*padding-right: 40px;*/
     width: 479px;
     height: 570px;
     margin: 0 auto;
@@ -26,9 +26,9 @@ html,body{height:100%;}
     color:#6490ff;
     text-align: center;
     padding-top: 50px;
-    letter-spacing: 20px;
-    padding-left: 20px;
+    letter-spacing: 40px;
     padding-bottom: 46px;
+    text-indent: 40px;
 }
 .login-inputs input{
     display: block;
@@ -47,7 +47,7 @@ html,body{height:100%;}
     margin-top: 14px;
 }
 .login-status{
-    margin-left: 60%;
+    float: right;
     color: #afafaf;
     margin-top: 36px;
     margin-bottom: 35px;
@@ -88,6 +88,10 @@ html,body{height:100%;}
 }
 .login-btn button{
     height: 60px;
+}
+.login-p-40{
+    padding-left: 40px;
+    padding-right: 40px;
 }
 @media (max-width: 768px) {
     .login-img{height:200px;}
