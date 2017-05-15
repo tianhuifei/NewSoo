@@ -1,0 +1,78 @@
+.quoteInformation-content{
+    border-left:1px solid #f8f8f8;
+    border-right:1px solid #f8f8f8;
+    border-bottom:1px solid #f8f8f8;
+    padding:20px;
+}
+.quote-table-content{
+    border:1px solid #ddd;
+}
+@media (max-width: 768px){
+    .quote-hide-img{
+        display: none;
+    }
+    .quote-table-content{
+        border:0px solid transparent;
+    }
+}
+/*左侧的导航*/
+@media (max-width:990px) {
+    .left-list{
+        position: fixed;
+        left :-250px;
+        top: 0;
+        z-index: 55;
+        background-color: white;
+        transform: translateX(-250px);
+        -webkit-transition-duration: 1s;
+    }
+}
+@media (min-width:990px){
+    .left-list-hide{
+        transform: translateX(0)!important;
+    }
+    .left-list-show{
+        transform: translateX(0) !important;
+    }
+}
+.left-list-show{
+    transform: translateX(250px);
+    -webkit-transition-duration: 1s;
+}
+.left-list-hide{
+    transform: translateX(-250px);
+}
+/*左侧导航结束*/
+.quoteInformation-img{
+    background: url("../images/quote.png");
+    width:100%;
+    background-size: 100% 100%;
+    min-height: 510px;
+}
+.quoteInformation-save-btn{
+    margin-bottom: 40px;
+}
+.quote-table{
+    margin-bottom: 30px;
+}
+.quote-table h6{
+    color:#6666ff;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.quote-table .caret{
+    border-top:8px dashed;
+    border-right:8px solid transparent;
+    border-left:8px solid transparent;
+}
+.quote-table-content table th,.quote-table-content table td{
+    height:45px !important;
+    line-height: 45px !important;
+}
+.quote-table-content table td{
+    font-size: 12px;
+}
+.quote-table-content table th{
+    font-size: 14px;
+}
