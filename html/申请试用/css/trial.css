@@ -43,6 +43,9 @@
     margin-bottom: 0;
 }
 /*基本布局结束*/
+.forget-pass{
+    display: none;
+}
 .lg-margin{
     margin-bottom: 20px;
     height: 45px;
@@ -60,6 +63,7 @@
 .lg-margin input{
     background-color: #eeeeee;
     height: 45px;
+    color: #999;
 }
 .lg-margin textarea{
     background-color: #eeeeee;
@@ -105,6 +109,7 @@
 }
 .bg-yes{
     background-color: #7798ff;
+    color: #fff;
 }
 .lable-padding{
     padding-right: 15px;
@@ -155,6 +160,9 @@
     background-color: #eeeeee;
     height: 45px;
     position: relative;  text-align: left;
+    border-radius: 3px;
+    color: #999;
+    border-color: #ccc;
 }
 .apply-dropdown span{
     position: absolute;
@@ -167,8 +175,30 @@
 .apply-dropdown ul{
     width: 100%;
 }
+.apply-dropdown button span{
+    color: #7798ff;
+}
+/*:-moz-placeholder { !* Mozilla Firefox 4 to 18 *!
+    color: #ccc; opacity:1;
+}
+
+::-moz-placeholder { !* Mozilla Firefox 19+ *!
+    color: #ccc;opacity:1;
+}
+
+input:-ms-input-placeholder{
+    color: #ccc;opacity:1;
+}
+
+input::-webkit-input-placeholder{
+    color: #ccc;opacity:1;
+}*/
+
+
+
 .first-tip{
     background: url("../images/first.png") repeat-x;
+    color: #FFFFFF;
 }
 .first-tip2{
     background: url("../images/second.png");
@@ -181,9 +211,11 @@
 }
 .second-tip2{
     background: url("../images/second2_03.png");
+    color: #FFFFFF;
 }
 .third-tip3{
     background: url("../images/third3_03.png");
+    color: #FFFFFF;
 }
 .height-tip{
     height: 40px;
@@ -195,6 +227,7 @@
     line-height: 40px;
     background-size: 100% 100%;
     margin: 5px 0;
+
 }
 .forget-first-page{
     height: 100%;
@@ -206,10 +239,14 @@
     height: 220px;
     margin: auto;
     margin-top: 100px;
+    margin-bottom: 90px;
 }
 .forget-pwd label{
     width: 22%;
     text-align: right;
+}
+.forget-second-page .forget-pwd label{
+    width: 30%;
 }
 .forget-pwd .pwd-row div{
     display: inline-block;
@@ -253,4 +290,70 @@
     .pwd-row .email-input1,.pwd-row .code-input2{
         width: 74%;
     }
+}
+.forget-second-page .second-input2{
+    width: 66%;
+}
+.forget-second-page .next-next{
+    margin-left: 31%;
+    width: 62%;
+}
+.bar,.intensity{
+    width: 29%;
+    display: inline-block;
+    margin-right: 4%;
+}
+.bar{
+    background-color: #EEEEEE;
+    height: 8px;
+    border-radius: 5px;
+    border: 1px #eee solid;
+
+}
+.strength{
+    width: 100%;
+}
+.intensity{
+    text-align: center;
+}
+.red-active{
+    background-color: red;
+}
+/*
+密码找回*/
+.left-img{
+    float:left;
+
+      width: 20%;
+    display: inline-block;
+    height: 100%;
+}
+.left-img img{margin:0 auto;}
+.right-text{
+    float:left;
+    display: inline-block;
+    height: 100%;
+}
+.success-p{
+    color: #2fe58e;
+    font-size: 24px;
+}
+.success-p2{
+    color: #989898;
+    font-size: 18px;
+}
+.right-text a{
+    font-size: 18px;
+    color: #7798ff;
+}
+.success-p2 span{
+    color: #7798ff;
+}
+.btn-default:hover {
+    color: #333;
+    background-color: #7798ff;
+    border-color: #adadad;
+}
+.btn-default{
+    border-color: #7798ff;
 }
