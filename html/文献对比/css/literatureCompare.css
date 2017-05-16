@@ -1,0 +1,128 @@
+.ns-line-bottom{
+    padding-left: 0px !important;
+    margin-bottom: 0px !important;
+}
+.literature-head{
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+.literature-head-f{
+    display: inline-block;
+    margin-right: 9px;
+}
+.btn-type{
+    margin-bottom: 10px;
+}
+.m-r-40{
+    margin-right: 40px;
+}
+.literature-table{
+    /*border:1px solid #ddd;*/
+    font-size: 12px;
+    margin-bottom: 14px;
+}
+.literature-table-head{
+    height:66px;
+    line-height: 66px;
+    background: #dee7ff;
+    padding-left: 26px;
+    font-weight: bold;
+}
+.literature-table table{
+    width: 100%;
+}
+.literature-table table tr{
+    height:66px;
+}
+.literature-table table tr td{
+    padding-left: 26px;
+    border:1px solid #dddddd;
+    padding-right: 5px;
+}
+.literature-table table tr td:first-child{
+    font-weight: bold;
+}
+.literature-color{
+    color:#6b95ff;
+}
+.literature-table-active{
+    background: #f7f7f7;
+}
+.literature-btn{
+    padding-bottom: 70px;
+}
+.literature-btn button{
+    display: inline-block;
+}
+.btn-search{
+    margin-bottom: 5px !important;
+}
+.btn{
+    height: 46px;
+}
+.literature-border-r{
+    border-right:1px solid #dddddd;
+    padding-top: 30px;
+    padding-right: 3px;
+}
+.literature-border-l{
+    border-left:1px solid #dddddd;
+    padding-top: 30px;
+    padding-left: 3px;
+}
+.literature-scroll{
+    padding-top: 30px;
+}
+.literature-div input{
+    margin-right: 14px;
+}
+.literature-div{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.literature-head-f-r{
+    float: right;
+}
+.literature-scroll li{
+    display: inline-block;
+    float: left;
+    min-height: 93px;
+    background: #dee7ff;
+    margin-bottom: 8px;
+    padding: 20px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 8px;
+}
+.literature-li-active{
+    background: #6b95ff !important;
+    color:#fff;
+}
+.literature-line{
+    border-radius: 3px;
+    width: 6px;
+    height:86px;
+    background: #6b95ff;
+}
+.literature-scroll table{
+    width: 100%;
+    text-align: center;
+}
+.literature-scroll table tr{
+    height: 66px;
+    background: #dee7ff;
+    border-radius: 3px;
+}
+.literature-scroll table td{
+    border: 1px solid #dddddd;
+}
+.literature-b-c{
+    display: inline-block;
+    border-radius: 3px;
+    background: #eeeeee;
+    padding-top: 11px;
+    padding-left: 5px;
+    padding-bottom: 11px;
+    padding-right: 28px;
+    margin-left: 5px;
+}
