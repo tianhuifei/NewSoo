@@ -1,0 +1,83 @@
+body{
+    background: #EEEEEE;
+}
+.highlight{
+    width:630px;
+    height:585px;
+    background: #fff;
+    border-radius: 5px;
+    margin: 90px auto;
+}
+.highlight-title{
+    height:56px;
+    line-height: 56px;
+    background: #7798ff;
+    color: #fff;
+    font-size: 14px;
+    padding-left: 24px;
+}
+.highlight-title .soo{
+    float: right;
+    margin-right: 20px;
+    font-size: 20px !important;
+}
+.highlight-body{
+    margin-top: 27px;
+    padding-left: 15px;
+}
+.highlight-body input{
+    width: 366px;
+    height: 45px;
+    background: #eeeeee;
+    display: inline-block;
+}
+.highlight-b{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+.highlight-f{
+    float: left;
+    margin-right: 12px;
+}
+.highlight-b-purple{
+    background: #cf00ee;
+}
+.highlight-b-blue{
+    background: #00b7ee;
+}
+.highlight-b-green{
+    background: #36ff00;
+}
+.highlight-b-yellow{
+    background: #fff100;
+}
+.highlight-b-brown{
+    background: #ff9600;
+}
+.highlight-b-pink{
+    background: #e5004f;
+}
+.highlight-btn{
+    margin-top: 28px;
+    margin-left: 126px;
+}
+.highlight-btn button{
+    width: 104px !important;
+    height:40px !important;
+    color: #ffffff;
+    background: #bfbfbf;
+    letter-spacing: 10px;
+    text-indent: 10px;
+}
+.radio, .checkbox{
+    margin-top: 5px;
+}
+.checkbox-slider--b-flat input:checked + span:before{
+    background: rgba(100, 100, 100, 0.2)
+}
+.checkbox-slider--b-flat input + span:before{
+    background: #6b95ff;
+}
