@@ -19,7 +19,11 @@
 
 .soo-edit:before { content: "\e603"; }
 
+.soo-chunk:before { content: "\e605"; }
+
 .soo-add:before { content: "\e600"; }
+
+.soo-list:before { content: "\e606"; }
 
 .soo-pass:before { content: "\e61b"; }
 
@@ -29,15 +33,23 @@
 
 .soo-search:before { content: "\e611"; }
 
+.soo-setting:before { content: "\e613"; }
+
 .soo-next:before { content: "\e617"; }
 
 .soo-search-min:before { content: "\e612"; }
 
+.soo-copy:before { content: "\e64f"; }
+
 .soo-jia:before { content: "\e622"; }
+
+.soo-new:before { content: "\e623"; }
 
 .soo-last-page:before { content: "\e65c"; }
 
 .soo-account:before { content: "\e60c"; }
+
+.soo-cuo-radius:before { content: "\e642"; }
 
 .soo-query:before { content: "\e6d8"; }
 
@@ -52,6 +64,8 @@
 .soo-baocun:before { content: "\e66b"; }
 
 .soo-previous:before { content: "\e60d"; }
+
+.soo-chunk-3:before { content: "\e6d3"; }
 
 .soo-light:before { content: "\e8e4"; }
 
