@@ -1,0 +1,130 @@
+
+
+
+
+.right-bottom-content table{
+margin-bottom: 0;
+    border-radius: 3px;
+    border-collapse: separate;
+    background-color: #fff;
+}
+.right-bottom-content table tr th,.right-bottom-content table tr td{
+    height: 56px;
+    vertical-align: middle!important;
+    text-align: center;
+    border-top: none;
+    border-bottom: none;
+    color: #494949;
+
+}
+.right-bottom-content table tr td{
+    font-size: 12px;
+}
+.right-bottom-content table thead tr:first-child{
+    height: 87px;
+}
+
+
+
+
+
+
+
+.type-btn{
+    height: 18px;
+    width: 36px;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    margin-right: 5px;
+}
+.green{
+    background-color: #5be19c;
+}
+.pink{
+    background-color: #e345a2;
+}
+.gray{
+    background-color: #c9c9c9;
+}
+
+.contrast-top>div:nth-child(2){
+    background-color: #eeeeee;
+}
+.contrast{
+    background-color: #fff;
+    width: 270px;
+    height: 380px;
+    border: 1px solid #ddd;
+    font-size: 12px;
+}
+.contrast-top>div{
+    display: inline-block;
+    width: 49%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.contrast-bottom{
+    text-align: center;
+
+}
+.contrast-bottom input.btn-input{
+    background-color: #6490ff;
+    width: 69px;
+    height: 24px;
+    border-radius: 3px;
+    border: none;
+    font-size: 12px;
+    color: #fff;
+    margin: 12px 5px;
+}
+.contrast-bottom div input:nth-of-type(1){
+    width: 145px;
+    border-radius: 3px;
+    background-color: #f8f8f8;
+    border: none;
+    height: 24px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.contrast-bottom div input:nth-of-type(2){
+    width: 50px;
+    height: 24px;
+    background-color: #fff;
+    border: 1px solid #7798ff;
+    border-radius: 3px;
+    color: #7798ff;
+}
+.contrast-center{
+height: 270px;
+}
+.contrast-center .square_off{
+    margin-left: 5px;
+    margin-right: 8px;
+}
+.contrast-center ul li{
+    height: 42px;
+    line-height: 42px;
+
+    border-bottom: 1px solid #ddd;
+}
+.contrast-center .soo-error{
+    float: right;
+    margin-right: 5px;
+    color: #ddd;
+}
+.contrast-center .center-title{
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 1px solid #ddd;
+}
+.contrast-center .center-title>span:nth-of-type(3){
+    float: right;
+    margin-right: 5px;
+}
+.contrast-center .center-title>span:nth-of-type(2){
+    margin-left: 44px;
+}
+

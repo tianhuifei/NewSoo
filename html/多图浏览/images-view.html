@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>多图浏览</title>
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <link rel="stylesheet" href="../../css/public.css">
+    <link rel="stylesheet" href="../../css/soo.css">
+    <link rel="stylesheet" href="css/images-view.css">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-default navbar-neusoo">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <!--响应按钮 -->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-nav" aria-expanded="false">
+                <span class="sr-only"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand brand-logo" href="javascript:void(0);"></a>
+        </div>
+        <div class="navbar-collapse collapse" id="header-nav" aria-expanded="false" style="height: 1px;">
+            <ul class="nav navbar-nav navbar-neusoo-ul">
+                <li class="active"><a href="javascript:void(0);" class="nav-h-90">首页 <span class="sr-only">(current)</span></a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0);" class="dropdown-toggle nav-h-90" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">检索 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="javascript:void(0);">下拉1</a></li>
+                        <li><a href="javascript:void(0);">下拉2</a></li>
+                        <li><a href="javascript:void(0);">下拉3</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="javascript:void(0);">下拉4</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="javascript:void(0);">下拉5</a></li>
+                    </ul>
+                </li>
+                <li><a href="javascript:void(0);" class="nav-h-90">专题库</a></li>
+
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="javascript:void(0);" class="nav-h-90">通知中心</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0);" class="dropdown-toggle nav-h-90" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">用户 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="javascript:void(0);">下拉1</a></li>
+                        <li><a href="javascript:void(0);">下拉2</a></li>
+                        <li><a href="javascript:void(0);">下拉3</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="javascript:void(0);">下拉4</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="javascript:void(0);">下拉5</a></li>
+                    </ul>
+                </li>
+                <li><a href="javascript:void(0);" class="nav-h-90">帮助中心</a></li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+<div class="container-fluid clearfix">
+    <div class="ns-line-bottom p-t-10 Sys-control">
+
+        <h4 class="inline-b">列表浏览</h4>
+    </div>
+    <div class="view-top">
+        <div class= "first-line clearfix">
+            <div class=" first-lable">检索表达式：</div>
+            <div class="first-input"><input type="text" class="form-control"> </div>
+            <div class="first-btn"><div class=""><button class="btn btn-default ">检索并浏览</button></div></div>
+
+
+        </div>
+        <div class="next-line clearfix">
+            <div class="next-btn1"><button class="btn btn-default ">AND</button></div>
+            <div class="next-btn2"><button class="btn btn-default ">点击选择检索字段</button><a class="absolute-a">字段代码详解</a></div>
+            <div class="next-input"><input type="text" class="form-control"> </div>
+            <div class="next-btn3"><div class=""><button class="btn btn-default ">二次检索</button></div></div>
+            <div class="next-btn4"><div class=""><button class="btn btn-default ">保存检索式</button></div></div>
+
+        </div>
+
+        <div class= "filter-line clearfix">
+            <div class=" filter-lable">筛选条件区：</div>
+            <div class="filter-div">
+                <div class="tags"> 中国全部<span class="soo soo-cuo-radius delete-tag"></span></div>
+                <div class="tags"> 有 效<span class="soo soo-cuo-radius delete-tag"></span></div>
+                <div class="tags"> 失 效<span class="soo soo-cuo-radius delete-tag"></span></div>
+                <div class="tags"> 中国全部<span class="soo soo-cuo-radius delete-tag"></span></div>
+                <div class="tags"> 中国全部<span class="soo soo-cuo-radius delete-tag"></span></div>
+            </div>
+            <div class="filter-delete"><span class="soo soo-delete"></span></div>
+        </div>
+        <div class="stat">
+            <p>共<span>24</span>条专利，其中中国专利<span>16</span>条，外国专利<span>8</span>条</p>
+        </div>
+    </div>
+    <div class="view-bottom clearfix">
+        <div class="middle-btn-group clearfix">
+            <div class="left-icon-group">
+                <span class="soo soo-list" title="列表浏览"></span>
+                <span class="soo soo-new" title=""></span>
+                <span class="soo soo-chunk" title=""></span>
+                <span class="soo soo-contrast" title=""></span>
+                <span class="soo soo-copy" title=""></span>
+            </div>
+            <div class="middle-check-group">
+                <div>
+                    <input type="checkbox" class="p-check-all" id="p-check-all">
+                    <label for="p-check-all">全选</label>
+                </div>
+                <div>
+                    <input type="checkbox" class="p-check-all" id="p-check-some">
+                    <label for="p-check-some">本页</label>
+                </div>
+                <div>
+                    已选中<span>6</span>篇文献
+                </div>
+
+            </div>
+            <div class="middle-btn-right clearfix">
+                <div class="btn btn-default bg-blue">对比浏览</div>
+                <div class="btn btn-default bg-blue">最相关 <span class="caret pulldrown-span"> </span></div>
+                <div class="btn btn-default ">检索结果合并 <span class="caret pulldrown-span"> </span></div>
+                <div class="btn btn-default ">按同族扩展</div>
+                <div class="btn btn-default ">高  亮</div>
+                <div class="btn btn-default ">显示字段 <span class="soo soo-setting"> </span></div>
+            </div>
+        </div>
+
+        <div class="bottom-content">
+            <div class="left-bottom-list">
+                <div class="panel panel-default">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading"><h3 style="font-size: 20px">统计筛选<span class="soo soo-setting"> </span></h3></div>
+
+                    <!-- List group -->
+                    <ul class="list-group">
+                        <li class="list-group-item selected-item"><div class="square_off square_on"></div>专利类型<span class="soo soo-add"></span>
+                            <div class="list-child-item"><div class="square_off square_on"></div><span>发明</span><span class="child-count">80</span></div>
+                            <div class="list-child-item"><div class="square_off"></div><span>实用新型</span><span class="child-count">10</span></div>
+
+                        </li>
+                        <li class="list-group-item"><div class="square_off "></div>法律效力<span class="soo soo-add"></span></li>
+                        <li class="list-group-item"><div class="square_off "></div>申请人<span class="soo soo-add"></span></li>
+                        <li class="list-group-item"><div class="square_off "></div>申请人国别<span class="soo soo-add"></span></li>
+                        <li class="list-group-item"><div class="square_off "></div>发明（设计）人<span class="soo soo-add"></span></li>
+                        <li class="list-group-item"><div class="square_off "></div>ipc分类号<span class="soo soo-add"></span></li>
+                        <li class="list-group-item show-more">更多 <span class="caret"> </span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right-bottom-content" >
+                <div class="amplify" style="position: absolute;top: 650px;left: 400px;z-index: 999">
+                    <div><img src="../双屏浏览/images/first-view.png"></div>
+                   <div> <p>&nbsp;&nbsp;本发明公开了一种模糊控制电加热全自动豆浆机，其包括机头、杯体、电机、电机传动轴、旋转刀片、加热元件燃烧传感头和控制电路板，
+                        该控制电路板将豆浆的制备方法程序化，  系统化的固化在控制电路板中，并通过单片机控制，尤其是能够在够将的加工过程中的几个加热时段内，
+                        引入根据温度自动调节加热功率，并控制温升速率的功能。本发明公开了一种模糊控制电加热全自动豆浆机，
+                        其包括机头、杯体、电机、电机传动轴、旋转刀片、加热元件燃烧传感头和控制电路板，该控制电路板将豆浆的制备方法程序化。</p></div>
+                </div>
+                <div class="contrast"style="position: absolute;top: 660px;left: 1020px;z-index: 999">
+                    <div class="contrast-top">
+                        <div>对比文献</div>
+                        <div><div class="square_off"></div>对比附图</div>
+                    </div>
+                    <div class="contrast-center">
+                        <div><div class="square_off square_on"></div><div class="right-delete"><span class="soo soo-error"></span></div><img src="../双屏浏览/images/first-view.png"></div>
+                        <div><div class="square_off "></div><div class="right-delete"><span class="soo soo-error"></span></div><img src="../双屏浏览/images/first-view.png"></div>
+                        <div><div class="square_off "></div><div class="right-delete"><span class="soo soo-error"></span></div><img src="../双屏浏览/images/first-view.png"></div>
+                        <div><div class="square_off "></div><div class="right-delete"><span class="soo soo-error"></span></div><img src="../双屏浏览/images/first-view.png"></div>
+                    </div>
+                    <div class="contrast-bottom">
+                        <input type="button" value="对比浏览">
+                    </div>
+                </div>
+                <div class="table-responsive clearfix">
+                    <div class="image-text-item">
+                        <div class="title-line clearfix">
+                            <div class="square_off "></div>
+                            <span>1</span>
+                            <span>CN102160575A           </span>
+                            <span>99%</span>
+
+                            <span> 模糊控制电加热全自动豆浆机</span>
+                            <div class="type-btn green">有效</div>
+                            <div class="type-btn blue">实用新型</div>
+                            <div class="stick">置顶</div>
+                            <div class="second-line clearfix">
+                                <div>公开（公告）日：<span>20100303</span></div>
+                                <div>申请号：<span>CN200920133824.0</span></div>
+                                <div>申请日：<span>20090710</span></div>
+                                <div>申请人：<span>王小明</span></div>
+                                <div class="pdf-btn">PDF</div>
+                            </div>
+                        </div>
+
+                        <div class="images-show">
+                            <div class="picture-parent"><div class="square_off square_on"></div><img src="../双屏浏览/images/first-view.png"></div>
+                            <div class="picture-parent"><div class="square_off "></div><img src="../双屏浏览/images/first-view.png"></div>
+                            <div class="picture-parent"><div class="square_off "></div><img src="../双屏浏览/images/first-view.png"></div>
+                            <div class="picture-parent"><div class="square_off "></div><img src="../双屏浏览/images/first-view.png"></div>
+
+                        </div>
+                    </div>
+                    <div class="image-text-item">
+                        <div class="title-line clearfix">
+                            <div class="square_off "></div>
+                            <span>2</span>
+                            <span>CN102160575A           </span>
+                            <span>99%</span>
+
+                            <span> 模糊控制电加热全自动豆浆机</span>
+                            <div class="type-btn green">有效</div>
+                            <div class="type-btn blue">实用新型</div>
+                            <div class="stick">置顶</div>
+                            <div class="second-line clearfix">
+                                <div>公开（公告）日：<span>20100303</span></div>
+                                <div>申请号：<span>CN200920133824.0</span></div>
+                                <div>申请日：<span>20090710</span></div>
+                                <div>申请人：<span>王小明</span></div>
+                                <div class="pdf-btn">PDF</div>
+                            </div>
+                        </div>
+                        <div class="images-show">
+                            <div class="picture-parent"><div class="square_off "></div><img src="../双屏浏览/images/first-view.png"></div>
+                            <div class="picture-parent"><div class="square_off "></div><img src="../双屏浏览/images/first-view.png"></div>
+                            <div class="picture-parent"><div class="square_off "></div><img src="../双屏浏览/images/first-view.png"></div>
+                            <div class="picture-parent"><div class="square_off "></div><img src="../双屏浏览/images/first-view.png"></div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+                <div class="bottom-btn-group clearfix">
+                    <div class="bottom-btn-left clearfix">
+                        <div>每页显示专利数</div>
+                        <div class="page-button blue-active">20</div>
+                        <div class="page-button">50</div>
+                        <div class="page-button">100</div>
+                    </div>
+                    <div class="bottom-pagination clearfix">
+                        <div class="page-button paging">&lt</div>
+                        <div class="page-button blue-active">01</div>
+                        <div class="page-button light-gray">02</div>
+                        <div class="page-button light-gray">03</div>
+                        <div class="page-button light-gray">04</div>
+                        <div class="page-button light-gray">05</div>
+                        <div class="page-button light-gray">06</div>
+                        <div class="page-button light-gray">07</div>
+                        <div class="page-button light-gray">08</div>
+                        <div class="page-button light-gray">09</div>
+                        <div class="page-button light-gray">10</div>
+                        <div class="page-button paging">&gt</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<script src="../../js/jquery-1.12.3.js"></script>
+<script src="../../js/bootstrap.js"></script>
+</body>
+</html>

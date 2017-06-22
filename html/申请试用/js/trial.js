@@ -9,9 +9,11 @@ $(".left-list li").click(function(){
     switch(list_type){
         case "1":
             $(".applyfor-trial").show().siblings().hide();
+            $(".title-top").text("申请试用")
             break;
         case "2":
             $(".forget-pass").show().siblings().hide();
+            $(".title-top").text("忘记密码")
             break;
     }
 

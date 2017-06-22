@@ -27,7 +27,10 @@ padding-bottom: 20px;
 
 }
 .btnStyle{
-    width:144px;
+    width:100%;
+}
+.user-manage .panel .panel-heading .btn-group{
+    width: 144px;
 }
 .adduser{
     display: inline-block;
@@ -75,6 +78,7 @@ padding-bottom: 20px;
 .adduser .btn-default{
     color: white;
     background-color: #6490ff;
+    border-color: #6490ff;
 }
 .three-btn span{
     color: #6490ff;
@@ -110,6 +114,18 @@ padding-bottom: 20px;
         transform: translateX(0) !important;
     }
 }
+@media (max-width: 592px){
+    .user-manage .panel .panel-heading .btn-group{
+        width: 33%;
+    }
+    .inputPosition{
+        margin: 0 2%;
+        width: 62%;
+    }
+    .panel-default > .panel-heading {
+        height: 95px;
+    }
+}
 .usersee-content{
     position: relative;
 }
@@ -133,13 +149,23 @@ padding-bottom: 20px;
 .success-color{
     color: #6490ff;
 }
-.log-manage table:last-child tr:last-child {
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
+/*.log-manage table:last-child tr:last-child {
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
 }
 .log-manage table:last-child tr {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd
+}
+.log-manage table thead tr{
+    border-top: 1px solid #ddd;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}*/
+.log-manage table{
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    border-collapse: separate;
 }
 .panel-heading.role-name{
     color: #6490ff;
@@ -205,4 +231,22 @@ padding-bottom: 20px;
     max-width: 270px;
     text-align: center;
     margin: 0 auto;
+}
+
+
+.add-role-dialog{
+    width: 620px;
+    height: 350px;
+    background-color: #fff;
+}
+.add-role-dialog>div:nth-of-type(1){
+    background-color: #7798ff;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+    padding-right: 12px;
+    color: #fff;
+}
+.add-role-dialog>div:nth-of-type(1) .soo-error{
+    float: right;
 }

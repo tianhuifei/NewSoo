@@ -27,6 +27,9 @@
     .search-top .search-row .search-t-right .search-t-r-row .search-t-r-left{float:left;width:100%;}
     .search-top .search-row .search-t-right .search-t-r-row .search-t-r-right{float:left;width:100%;}
     .search-title{color:#505050;font-size:12px;text-align: left;}
+    .no-padding{
+        padding-left: 0;
+    }
 }
 
 /*** 手机 **/
@@ -41,6 +44,186 @@
     .search-top .search-row .search-t-right .search-t-r-row .search-t-r-left{float:left;width:100%;}
     .search-top .search-row .search-t-right .search-t-r-row .search-t-r-right{float:left;width:100%;}
     .search-title{color:#505050;font-size:12px;text-align: left;}
+    .col-xs-none{
+        display: none;
+    }
+    .no-padding{
+        padding-left: 0;
+    }
+    .btn-left-pulldrown{
+        margin-bottom: 12px;
+    }
+    .active-part{
+        margin-bottom: 12px;
+    }
+
+
+}
+.btn-left-pulldrown{
+
+    height: 35px;
+    line-height: 35px;
+    background: #7798ff;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 3px;
+    text-align: center;
+    position: relative;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.pulldrown-span{
+    position: absolute;
+    right: 7px;
+    top: 15px;
+}
+.search-middle{
+    margin-top: 25px;
+    padding-bottom: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ .btn-patentName {
+    height: 30px;
+     position: relative;
+}
+
+ .btn-all {
+    margin-bottom: 5px;
+}
+
+ span.soo-add {
+    font-size: 32px;
+    border-radius: 50%;
+    background: #5be19c;
+    color: #fff;
+}
+
+.form-position {
+    position: relative;
+}
+.form-control {
+    background: #eeeeee;
+    height: 46px;
+    font-size: 12px;
+}
+
+.btn-delete {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #e345a2;
+    position: absolute;
+    top: 8px;
+    right: 25px;
+    cursor: pointer;
+}
+.circle_on {
+    background-color: #6490ff;
+}
+
+.circle_off {
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px #6490ff solid;
+    width: 10px;
+    height: 10px;
+    margin: 0 10px;
+}
+.little-radio{
+    display: inline-block;
+    width: 30%;
+}
+.right-code{
+    height: 45px;
+    line-height: 45px;
+    font-size: 12px;
+    text-align: right;
+    color: #fbae1b;
+}
+.active-part{
+    position: relative;
+    text-align: center;
+}
+.left-part{
+    position: absolute;
+    left: 1%;
+    top: 3px;
+}
+.right-part{
+    position: absolute;
+    left: 97%;
+    top: 3px;
+}
+.middle-row{
+    margin-top: 20px;
+    margin-left: 0;
+}
+.btn-add{
+    margin-top: -7px;
+}
+.btn-pulldown{
+    position: absolute;
+    right: 14%;
+    top: 13px;
+}
+.bottom-btns-group{
+    height: 65px;
+    background-color: #f8f8f8;
+    margin-left: -25px;
+    margin-right: -25px;
+    margin-top: 20px;
+}
+.bottom-btns-group button{
+    color: white;
+    background-color: #6490ff;
+    border-color: #6490ff;
+    height: 45px;
+    width: 120px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.bottom-btns-group button:hover{
+    background-color: #6490ff;
+    color: black;
+}
+.bottom-btns-group .pull-right{
+    margin: 1%;
+}
+.bottom-btns-group .delete-bg{
+    background-color: #bfbfbf;
+    border-color: #bfbfbf;
+}
+@media (max-width: 540px) {
+    .bottom-btns-group .pull-right{
+        float: none !important;
+        display: inline-block;
+        margin: 3%;
+    }
+    .bottom-btns-group{
+        text-align: center;
+        height: 130px;
+    }
+}
+ .an-date {
+    background: #eeeeee;
+    height: 49px;
+    line-height: 49px;
+    text-align: center;
+    border-radius: 5px;
+}
+ .an-date span.soo-analyze {
+    margin-right: 15px;
+    color: #6b95ff;
+}
+ div.date-line {
+    border-bottom: 1px solid #6b95ff;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 

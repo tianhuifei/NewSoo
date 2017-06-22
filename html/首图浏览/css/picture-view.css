@@ -1,0 +1,47 @@
+.picture-parent{
+    border: 1px solid #cccccc;
+    height: 180px;
+    margin: 5px;
+    position: relative;
+    display: inline-block;
+    width: 18%;
+    min-width: 170px;
+}
+.picture-group{
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    background-color: #fff;
+}
+.picture-group .picture-parent .square_off{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    margin-left: 0;
+
+}
+.picture-parent .stick,.picture-parent .pdf-btn{
+    width:45px ;
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    z-index: 55;
+    border-radius: 3px;
+    right: 10px;
+    text-align: center;
+    font-size: 10px;
+}
+.picture-parent .stick{
+    background-color: #dee7ff;
+    top: 10px;
+    color: #7798ff;
+}
+.picture-parent .pdf-btn{
+    background-color: #ffe7f5;
+    top: 35px;
+    color: #e345a2;
+}
+.picture-parent img{
+    width: 100%;
+    height: 100%;
+}

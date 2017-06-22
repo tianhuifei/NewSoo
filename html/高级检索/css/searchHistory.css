@@ -1,0 +1,72 @@
+/*引字段详解开始*/
+.file-detail tbody tr td{padding:20px 10px;font-size:14px;color:#666;}
+.btn-tab{font-size:20px;display:none;margin-right: 10px;}
+
+@media(max-width: 1300px){
+    .panel-heading{
+
+    ;}
+    .neu-tab-box{position:fixed;left:-200px;top:0;width:200px;overflow-y:auto;border:1px solid #dedede;height:100%;border-radius:0 !important; -webkit-transition: left 1s ease;
+        -moz-transition: left 1s ease ;
+        -o-transition: left 1s ease ;}
+    .neu-tab .neu-tab-box .neu-tab-li{display:block;border-left:0;border-bottom:1px solid #dedede;}
+    .btn-tab{
+        display: inline-block;
+    }
+}
+.delete-padding-r{
+    padding-right: 0;
+}
+
+
+.list-show{
+    left:0;
+    -webkit-transition: left 1s ease;
+    -moz-transition: left 1s ease ;
+    -o-transition: left 1s ease ;
+
+}
+.table>tbody>tr:first-child>td{
+    border-top: 0;
+}
+.table{
+    margin-bottom: 0px;
+}
+/*引字段详解结束*/
+.form-style{
+    height: 300px !important;
+    background: #f8f8f8;
+    margin-bottom: -2px;
+    border-bottom: 1px solid transparent;
+}
+.searchHistory .searchHistory-table{
+    margin-top: 0px;
+    margin-bottom: 70px;
+}
+.btn-clear{
+    background: #eeeeee;
+}
+.btn{
+    margin-bottom: 5px;
+}
+.searchHistory-modify{
+    font-size: 14px !important;
+}
+.searchHistory-modify .btn-word{
+    height: 50px;
+    font-size: 14px;
+}
+.searchHistory-modify .btn-original{
+    border:1px solid  #6b95ff;
+    color: #6b95ff;
+    background: transparent;
+}
+.operator-bottom-border{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+.operator-bottom-border .btn{
+    padding: 1px 6px;
+}

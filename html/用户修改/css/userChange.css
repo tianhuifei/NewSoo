@@ -59,6 +59,7 @@
  .lg-margin input{
 background-color: #eeeeee;
 height: 45px;
+     border-color: #eee;
 }
 @media (min-width: 768px) and (max-width: 992px){
     .lg-margin > div{
@@ -85,10 +86,26 @@ height: 45px;
 }
 .bg-yes{
     background-color: #7798ff;
+    color: #fff;
+    border: none;
+}
+.bg-yes:hover,.bg-no:hover{
+    background-color: #7798ff;
+    color: black;
+}
+.bg-no{
+    background-color: #eee;
+    border: none;
 }
 .useradd{
     display: none;
 }
 .inline-b{
     display: inline-block;
+}
+.test{    height: 45px;
+    line-height: 45px;
+    text-align: right;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }

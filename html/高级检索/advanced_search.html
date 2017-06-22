@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../../css/public.css">
     <link rel="stylesheet" href="../../css/soo.css">
     <link rel="stylesheet" href="css/advancedSearch.css">
+    <link rel="stylesheet" href="css/searchHistory.css">
     <!--[if lt IE 9]>
     <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
@@ -235,9 +236,361 @@
         </div>
         <div class="search-middle">
 
+            <div class="clearfix row middle-row">
+                <div class="btn-left-pulldrown col-lg-1 col-md-2 col-sm-3 col-xs-10">技术主题<span class="caret pulldrown-span"></span></div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-10 active-part">
+                    <div class="btn-all btn-patentName">专利名称<span class="caret btn-pulldown"></span></div>
+                    <div class="little-radio"><div class="circle_off circle_on "></div>AND</div>
+                    <div class="little-radio"><div class="circle_off "></div>OR</div>
+                    <div class="little-radio"><div class="circle_off "></div>NOT</div>
+                    <span class="left-part">(</span>
+                    <span class="right-part">)</span>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-2 btn-add"><span class="soo soo-add"></span></div>
+                <div class="col-lg-6 col-md-5 col-sm-10 col-xs-12 no-padding">
+                    <input type="text" class="form-control form-position" placeholder="请输入文献号，如：CN201010230977；仅支持美国数据">
+                    <div class="btn-delete"></div>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-none"><div class=" right-code">关键词</div></div>
+
+            </div>
+            <div class="clearfix row middle-row">
+                <div class=" col-lg-1 col-md-2 col-sm-3 col-xs-10"></div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-10 active-part">
+                    <div class="btn-all btn-patentName">专利名称<span class="caret btn-pulldown"></span></div>
+                    <div class="little-radio"><div class="circle_off circle_on "></div>AND</div>
+                    <div class="little-radio"><div class="circle_off "></div>OR</div>
+                    <div class="little-radio"><div class="circle_off "></div>NOT</div>
+                    <span class="left-part">(</span>
+                    <span class="right-part">)</span>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-2 btn-add"><span class="soo soo-add"></span></div>
+                <div class="col-lg-6 col-md-5 col-sm-10 col-xs-12 no-padding">
+                    <input type="text" class="form-control form-position" placeholder="请输入文献号，如：CN201010230977；仅支持美国数据">
+                    <div class="btn-delete"></div>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-none"><div class=" right-code">双语词典</div></div>
+
+            </div>
+            <div class="clearfix row middle-row">
+                <div class="btn-left-pulldrown col-lg-1 col-md-2 col-sm-3 col-xs-10">分类信息<span class="caret pulldrown-span"></span></div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-10 active-part ">
+                    <div class="btn-all btn-patentName">IPC国际专利分类号<span class="caret btn-pulldown"></span></div>
+                    <div class="little-radio"><div class="circle_off circle_on "></div>AND</div>
+                    <div class="little-radio"><div class="circle_off "></div>OR</div>
+                    <div class="little-radio"><div class="circle_off "></div>NOT</div>
+                    <span class="left-part">(</span>
+                    <span class="right-part">)</span>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-2 btn-add"><span class="soo soo-add"></span></div>
+                <div class="col-lg-6 col-md-5 col-sm-10 col-xs-12 no-padding">
+                    <input type="text" class="form-control form-position" placeholder="请输入文献号，如：CN201010230977；仅支持美国数据">
+                    <div class="btn-delete"></div>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-none"><div class=" right-code">IPC工具</div></div>
+
+            </div>
+            <div class="clearfix row middle-row">
+                <div class="btn-left-pulldrown col-lg-1 col-md-2 col-sm-3 col-xs-10">相关人<span class="caret pulldrown-span"></span></div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-10 active-part">
+                    <div class="btn-all btn-patentName">申请人<span class="caret btn-pulldown"></span></div>
+                    <div class="little-radio"><div class="circle_off circle_on "></div>AND</div>
+                    <div class="little-radio"><div class="circle_off "></div>OR</div>
+                    <div class="little-radio"><div class="circle_off "></div>NOT</div>
+                    <span class="left-part">(</span>
+                    <span class="right-part">)</span>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-2 btn-add"><span class="soo soo-add"></span></div>
+                <div class="col-lg-6 col-md-5 col-sm-10 col-xs-12 no-padding">
+                    <input type="text" class="form-control form-position" placeholder="请输入文献号，如：CN201010230977；仅支持美国数据">
+                    <div class="btn-delete"></div>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-none"><div class=" right-code">申请人工具</div></div>
+
+            </div>
+            <div class="clearfix row middle-row">
+                <div class="btn-left-pulldrown col-lg-1 col-md-2 col-sm-3 col-xs-10">相关号码<span class="caret pulldrown-span"></span></div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-10 active-part">
+                    <div class="btn-all btn-patentName">公开（公告）号<span class="caret btn-pulldown"></span></div>
+                    <div class="little-radio"><div class="circle_off circle_on "></div>AND</div>
+                    <div class="little-radio"><div class="circle_off "></div>OR</div>
+                    <div class="little-radio"><div class="circle_off "></div>NOT</div>
+                    <span class="left-part">(</span>
+                    <span class="right-part">)</span>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-2 btn-add"><span class="soo soo-add"></span></div>
+                <div class="col-lg-6 col-md-5 col-sm-10 col-xs-12 no-padding">
+                    <input type="text" class="form-control form-position" placeholder="请输入文献号，如：CN201010230977；仅支持美国数据">
+                    <div class="btn-delete"></div>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-none"><div class=" right-code">号码格式</div></div>
+
+            </div>
+            <div class="clearfix row middle-row">
+                <div class="btn-left-pulldrown col-lg-1 col-md-2 col-sm-3 col-xs-10">相关日期<span class="caret pulldrown-span"></span></div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-10 active-part">
+                    <div class="btn-all btn-patentName">申请日<span class="caret btn-pulldown"></span></div>
+                    <div class="little-radio"><div class="circle_off circle_on "></div>AND</div>
+                    <div class="little-radio"><div class="circle_off "></div>OR</div>
+                    <div class="little-radio"><div class="circle_off "></div>NOT</div>
+                    <span class="left-part">(</span>
+                    <span class="right-part">)</span>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-2 btn-add"><span class="soo soo-add"></span></div>
+                <div class="col-lg-6 col-md-5 col-sm-10 col-xs-12 no-padding row">
+                    <div class="col-lg-4 col-md-5 col-sm-5 col-xs-5">
+                        <div class="an-date"><span class="soo soo-analyze"></span>20110530</div>
+                    </div>
+                    <div class="col-lg-1 col-md-2 col-sm-2 col-xs-2 "><div class="date-line"></div></div>
+                    <div class="col-lg-4 col-md-5 col-sm-5 col-xs-5">
+                        <div class="an-date"><span class="soo soo-analyze"></span>20111030</div>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-none"><div class=" right-code"></div></div>
+
+            </div>
+            <div class="clearfix row middle-row">
+                <div class="btn-left-pulldrown col-lg-1 col-md-2 col-sm-3 col-xs-10">相关地址<span class="caret pulldrown-span"></span></div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-10 active-part">
+                    <div class="btn-all btn-patentName">申请人国别<span class="caret btn-pulldown"></span></div>
+                    <div class="little-radio"><div class="circle_off circle_on "></div>AND</div>
+                    <div class="little-radio"><div class="circle_off "></div>OR</div>
+                    <div class="little-radio"><div class="circle_off "></div>NOT</div>
+                    <span class="left-part">(</span>
+                    <span class="right-part">)</span>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-2 btn-add"><span class="soo soo-add"></span></div>
+                <div class="col-lg-6 col-md-5 col-sm-10 col-xs-12 no-padding">
+                    <input type="text" class="form-control form-position" placeholder="请输入文献号，如：CN201010230977；仅支持美国数据">
+                    <div class="btn-delete"></div>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-none"><div class=" right-code"></div></div>
+
+            </div>
+            <div class="clearfix row middle-row">
+                <div class="btn-left-pulldrown col-lg-1 col-md-2 col-sm-3 col-xs-10">法律信息<span class="caret pulldrown-span"></span></div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-10 active-part">
+                    <div class="btn-all btn-patentName">法律代码<span class="caret btn-pulldown"></span></div>
+                    <div class="little-radio"><div class="circle_off circle_on "></div>AND</div>
+                    <div class="little-radio"><div class="circle_off "></div>OR</div>
+                    <div class="little-radio"><div class="circle_off "></div>NOT</div>
+                    <span class="left-part">(</span>
+                    <span class="right-part">)</span>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-2 btn-add"><span class="soo soo-add"></span></div>
+                <div class="col-lg-6 col-md-5 col-sm-10 col-xs-12 no-padding">
+                    <input type="text" class="form-control form-position" placeholder="请输入文献号，如：CN201010230977；仅支持美国数据">
+                    <div class="btn-delete"></div>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-none"><div class=" right-code"></div></div>
+
+            </div>
+            <div class="clearfix row middle-row">
+                <div class="btn-left-pulldrown col-lg-1 col-md-2 col-sm-3 col-xs-10">所有字段<span class="caret pulldrown-span"></span></div>
+                <div class="col-lg-3 col-md-3 col-sm-4 active-part col-xs-10">
+                    <div class="btn-all btn-patentName">点击选择检索字段<span class="caret btn-pulldown"></span></div>
+                    <div class="little-radio"><div class="circle_off circle_on "></div>AND</div>
+                    <div class="little-radio"><div class="circle_off "></div>OR</div>
+                    <div class="little-radio"><div class="circle_off "></div>NOT</div>
+
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-2 btn-add"><span class="soo soo-add"></span></div>
+                <div class="col-lg-6 col-md-5 col-sm-10 col-xs-12 no-padding">
+                    <input type="text" class="form-control form-position" placeholder="请输入文献号，如：CN201010230977；仅支持美国数据">
+                    <div class="btn-delete"></div>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-none"><div class=" right-code">字段代码</div></div>
+
+            </div>
+
+            <div class="bottom-btns-group clearfix">
+                <div class="pull-right"><button class="btn btn-default ">检索并浏览</button></div>
+                <div class="pull-right"><button class="btn btn-default ">检  索</button></div>
+                <div class="pull-right"><button class="btn btn-default delete-bg">清  除</button></div>
+                <div class="pull-right"><button class="btn btn-default ">生成检索式</button></div>
+
+
+            </div>
 
 
 
+
+        </div>
+        <div class="search-bottom">
+            <div class="container-fluid">
+                <div class="searchHistory-modify">
+                    <div class="row">
+                        <div class="col-lg-1 col-sm-2 delete-padding-r">
+                            <div class="row ">
+                                <div class="col-lg-12"><h5>检索式编辑区</h5></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12"><button type="button" class="btn btn-default glyphicon glyphicon-list pull-left btn-tab"></button></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-10 col-sm-9">
+                            <div class="row">
+                                <div class="col-lg-2 col-sm-4"><div class="mltSearch"><button type="button" class="btn btn-search btn-word">字段与用法</button></div></div>
+                                <div class="col-lg-2 col-sm-4"><div class="mltSearch"><button type="button" class="btn btn-search btn-word btn-original">语法规则</button></div></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading neu-tab">
+
+                                            <ul class="neu-tab-box clearfix">
+                                                <li class="neu-tab-li active "><a href="javascript:void(0);">常用</a></li>
+                                                <li class="neu-tab-li "><a href="javascript:void(0);">技术主题</a></li>
+                                                <li class="neu-tab-li "><a href="javascript:void(0);">分类信息</a></li>
+                                                <li class="neu-tab-li "><a href="javascript:void(0);">相关人</a></li>
+                                                <li class="neu-tab-li "><a href="javascript:void(0);">相关号码</a></li>
+                                                <li class="neu-tab-li "><a href="javascript:void(0);">相关日期</a></li>
+                                                <li class="neu-tab-li "><a href="javascript:void(0);">相关地址</a></li>
+                                                <li class="neu-tab-li "><a href="javascript:void(0);">法律信息</a></li>
+                                                <li class="neu-tab-li "><a href="javascript:void(0);">其他字段</a></li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="panel-body p-0">
+                                            <div class="table-responsive">
+                                                <table class="table table-striped text-center table-h-center file-detail">
+                                                    <tbody>
+                                                    <tr>
+                                                        <td>IPC＝国际IPC分类</td>
+                                                        <td>ECLA＝欧洲EC分类</td>
+                                                        <td>UC＝美国UC分类</td>
+                                                        <td>FI＝日本FI分类</td>
+                                                        <td>FI＝日本F－term分类</td>
+                                                        <td>LOC＝洛迦诺分类</td>
+                                                        <td>CPC＝CPC分类</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>AP＝申请人</td>
+                                                        <td>IN＝发明（设计）人</td>
+                                                        <td>AT＝代理人</td>
+                                                        <td>AGC＝代理机构</td>
+                                                        <td>AP－ADD＝申请人地址</td>
+                                                        <td>AP－COUNTRY＝申请人国家</td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>PN＝公开（公告）号</td>
+                                                        <td>AN＝申请号</td>
+                                                        <td>PR＝优先权号</td>
+                                                        <td>AD＝申请日</td>
+                                                        <td>PD＝公开（公告）号</td>
+                                                        <td>PR－DATE＝优先权日</td>
+                                                        <td></td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-1">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-10 col-sm-9 col-lg-offset-1 col-sm-offset-2">
+                            <div class="row">
+                                <div class="col-lg-12"><textarea class="form-control form-style" rows="3" placeholder=""></textarea></div>
+                            </div>
+                            <div class="mltSearch operator-bottom-border">
+                                <div class="row" style="padding-left: 10px;padding-top: 10px;padding-right: 10px">
+                                    <div class="col-lg-1 col-md-2 col-sm-2 col-xs-3"><button type="button" class="btn btn-search">AND</button></div>
+                                    <div class="col-lg-1 col-md-2 col-sm-2 col-xs-3"><button type="button" class="btn btn-clear">OR</button></div>
+                                    <div class="col-lg-1 col-md-2 col-sm-2 col-xs-3"><button type="button" class="btn btn-clear">NOT</button></div>
+                                    <div class="col-lg-1 col-md-2 col-sm-2 col-xs-3"><button type="button" class="btn btn-clear">(</button></div>
+                                    <div class="col-lg-1 col-md-2 col-sm-2 col-xs-3"><button type="button" class="btn btn-clear">)</button></div>
+                                    <div class="col-lg-1 col-md-2 col-sm-2 col-xs-3"><button type="button" class="btn btn-clear">?</button></div>
+                                    <div class="col-lg-1 col-md-2 col-sm-2 col-xs-3"><button type="button" class="btn btn-clear">#</button></div>
+                                    <div class="col-lg-1 col-md-2 col-sm-2 col-xs-3"><button type="button" class="btn btn-clear">*</button></div>
+                                    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6"><button type="button" class="btn btn-clear">检索式逻辑编辑</button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-1 col-sm-9 col-sm-offset-2 col-lg-offset-0"><div class="mltSearch"><button type="button" class="btn btn-search btn-word btn-original">工具</button></div></div>
+                    </div>
+                    <div class="row mltSearch"  style="margin-top: 10px">
+                        <div class="col-lg-2 col-sm-2 col-lg-offset-5 col-sm-offset-3"><button type="button" class="btn btn-search btn-word btn-original">保存检索式</button></div>
+                        <div class="col-lg-1 col-sm-2"><button type="button" class="btn btn-search btn-word btn-original">清&nbsp;&nbsp;除</button></div>
+                        <div class="col-lg-1 col-sm-2"><button type="button" class="btn btn-search btn-word">检&nbsp;&nbsp;索</button></div>
+                        <div class="col-lg-2 col-sm-2"><button type="button" class="btn btn-search btn-word">检索并浏览</button></div>
+                    </div>
+                </div>
+
+
+                <div class="searchHistory">
+                    <div class="searchHistory-h1">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-xs-12 searchHistory-h1-cursor">
+                                <span>近期检索历史</span><span class="caret"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mltSearch">
+
+                    </div>
+<div class="">
+    <div class="searchHistory-table table-responsive">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>编号</th>
+                <th>检索式</th>
+                <th>数据范围</th>
+                <th>创建日期</th>
+                <th>结果</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>25</td>
+                <td>t1=(hjskbl)</td>
+                <td>数据范围=全部</td>
+                <td>2016-07-24 15:30:24</td>
+                <td>707</td>
+                <td>
+                    <span class="soo soo-see"></span>
+                    <span class="soo soo-analyze"></span>
+                    <span class="soo soo-jia"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>t1=(hjskbl)</td>
+                <td>数据范围=全部</td>
+                <td>2016-07-24 15:30:24</td>
+                <td>707</td>
+                <td>
+                    <span class="soo soo-see"></span>
+                    <span class="soo soo-analyze"></span>
+                    <span class="soo soo-jia"></span>
+                </td>
+            </tr>
+            <tr>
+                <td><span>25</span></td>
+                <td><span>t1=(hjskbl)</span></td>
+                <td>数据范围=全部</td>
+                <td>2016-07-24 15:30:24</td>
+                <td>707</td>
+                <td>
+                    <span class="soo soo-see"></span>
+                    <span class="soo soo-analyze"></span>
+                    <span class="soo soo-jia"></span>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -246,5 +599,26 @@
 
 <script src="../../js/jquery-1.12.3.js"></script>
 <script src="../../js/bootstrap.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".neu-tab").find(".neu-tab-li").click(function(){
+            if(!$(this).hasClass("active")){
+                $(this).addClass("active").siblings().removeClass("active");
+            }
+        })
+
+        $(".btn-tab").click(function(e){
+            if(!$(this).hasClass("active")){
+                $(this).addClass("active");
+                $(".neu-tab-box").addClass("list-show");
+            }
+            e.stopPropagation();
+        });
+        $(document).click(function(){
+            $(".list-show").removeClass("list-show");
+            $(".btn-tab").removeClass("active");
+        })
+    })
+</script>
 </body>
 </html>

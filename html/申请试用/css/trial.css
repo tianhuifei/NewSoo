@@ -64,11 +64,13 @@
     background-color: #eeeeee;
     height: 45px;
     color: #999;
+    border-color: #eee;
 }
 .lg-margin textarea{
     background-color: #eeeeee;
     height: 230px;
     width: 100%;
+    border-color: #eee;
 }
 @media (min-width: 768px) and (max-width: 990px){
     .lg-margin > div{
@@ -162,7 +164,7 @@
     position: relative;  text-align: left;
     border-radius: 3px;
     color: #999;
-    border-color: #ccc;
+    border-color: #eee;
 }
 .apply-dropdown span{
     position: absolute;
@@ -254,6 +256,7 @@ input::-webkit-input-placeholder{
 .forget-pwd .pwd-row input{
     background-color: #eeeeee;
     height: 45px;
+    border-color: #eee;
 }
 
 .pwd-row{
@@ -356,4 +359,10 @@ input::-webkit-input-placeholder{
 }
 .btn-default{
     border-color: #7798ff;
+}
+.title-top{
+    margin-left: 2%;
+    margin-top: 24px;
+    font-size: 18px;
+    display: inline-block;
 }
