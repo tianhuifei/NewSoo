@@ -250,3 +250,42 @@ padding-bottom: 20px;
 .add-role-dialog>div:nth-of-type(1) .soo-error{
     float: right;
 }
+.add-role-dialog>div:nth-of-type(2){
+    padding: 30px 75px;
+}
+.add-role-dialog>div:nth-of-type(2) .row{
+    margin-bottom: 20px;
+}
+.add-role-dialog>div:nth-of-type(2) .row>div{
+    padding: 0;
+}
+.add-role-dialog>div:nth-of-type(2)>div:nth-of-type(1) input{
+    width: 300px;
+    height: 45px;
+    background-color: #eeeeee;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.add-role-dialog>div:nth-of-type(2)>div:nth-of-type(2) textarea{
+    width: 410px;
+    height: 110px;
+    background-color: #eeeeee;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.add-role-dialog .ok,.add-role-dialog .cancel{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+}
+.add-role-dialog .ok{
+    background-color: #6b95ff;
+    margin-right: 50px;
+}
+.add-role-dialog .cancel{
+    background-color: #bfbfbf;
+}

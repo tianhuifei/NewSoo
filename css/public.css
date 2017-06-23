@@ -251,7 +251,7 @@ ul{list-style:none;padding:0;margin:0;}
     padding-right: 25px;
 }
 .left-bottom-list{
-    display: inline-block;
+   position: absolute;
     width: 265px;
     float: left;
     /*   height: 575px;
@@ -262,9 +262,9 @@ ul{list-style:none;padding:0;margin:0;}
 .right-bottom-content{
     /*    display: inline-block;
         width: 68%;*/
-    width: 1005px;
-    margin-left: 15px;
-    float: left;
+
+    margin-left: 272px;
+
     height: auto;
     border: 1px solid #ddd;
     border-radius: 3px;
@@ -273,6 +273,7 @@ ul{list-style:none;padding:0;margin:0;}
 .bottom-content{
     padding-left: 15px;
     padding-right: 15px;
+    position: relative;
 }
 .square_off{
     display: inline-block;
@@ -395,7 +396,7 @@ ul{list-style:none;padding:0;margin:0;}
 
     }
 }
-@media (max-width: 1360px){
+/*@media (max-width: 1360px){
     .right-bottom-content{
         width:980px;
     }
@@ -407,7 +408,7 @@ ul{list-style:none;padding:0;margin:0;}
     .right-bottom-content{
         width: 74%;
     }
-}
+}*/
 @media (max-width: 990px) {
     .left-bottom-list{
         width: 100%;
@@ -508,6 +509,14 @@ ul{list-style:none;padding:0;margin:0;}
         margin-left: 30px;
     }
 }
+/*@media (min-width: 1367px) {
+    .left-bottom-list{
+        width: 16.8%;
+    }
+    .right-bottom-content{
+        width: 82%;
+    }
+}*/
 
 /** 王小晴 **/
 
@@ -529,7 +538,7 @@ ul{list-style:none;padding:0;margin:0;}
     color:#6e6e6e;
 }
 .mltSearch .btn{
-    width: 100%;
+    width: 120px;
     font-size: 12px;
     text-align: center;
 }
@@ -541,6 +550,7 @@ ul{list-style:none;padding:0;margin:0;}
 .mltSearch .btn-search{
     background:#7798ff;
     color:#fff;
+    height: 45px;
 }
 /*近期检索历史*/
 .searchHistory{
