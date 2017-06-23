@@ -80,3 +80,5 @@
 .soo-first-page:before { content: "\e69c"; }
 
 .soo-see:before { content: "\e738"; }
+
+.soo-navigate_next:before { content: "\e777"; }

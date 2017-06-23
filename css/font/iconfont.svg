@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg">
 <metadata>
-Created by FontForge 20120731 at Fri May 19 17:13:40 2017
+Created by FontForge 20120731 at Fri Jun 23 10:28:04 2017
  By admin
 </metadata>
 <defs>
@@ -149,5 +149,7 @@ t-19 -45t-45 -19v0z" />
 d="M960 382v-4q-2 -11 -10 -20q-10 -13 -30 -35q-149 -166 -361 -229h1l1 1h2h1l1 1h1h1l1 1h1l1 1h1h1l1 1h1l1 1l63 25q-2 0 -11 -3q-25 -6 -39 -9q-82 -17 -164 2q-144 40 -253 142q-54 46 -97 101q-9 11 -9 26t9 26q11 15 30 35q82 93 190 155q67 39 142 56
 q82 16 164 -3q144 -40 253 -142q53 -46 97 -101q8 -9 9 -20v-6q1 -1 1 -2zM512 572q-75 6 -132 -43t-62.5 -124t43 -132t123.5 -62.5t132 43.5t63 124q1 5 1 14q2 72 -47 124.5t-121 55.5zM512 301q-37 -3 -66 21.5t-31.5 62t21.5 66t61.5 31.5t66.5 -21.5t32 -62.5v-7
 q1 -36 -23.5 -62.5t-60.5 -27.5z" />
+    <glyph glyph-name="navigate_next" unicode="&#xe777;" 
+d="M426 640l256 -256l-256 -256l-60 60l196 196l-196 196z" />
   </font>
 </defs></svg>
