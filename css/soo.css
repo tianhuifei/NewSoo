@@ -81,4 +81,4 @@
 
 .soo-see:before { content: "\e738"; }
 
-.soo-navigate_next:before { content: "\e777"; }
+.soo-navigate_next:before { content: "\e777"; position: absolute;right:7px;}
