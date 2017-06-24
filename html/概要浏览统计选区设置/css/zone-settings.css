@@ -22,19 +22,29 @@
 
 .keys-box{width:637px;margin: 0 auto;height:794px;}
 .keys-box .keys-left{float:left;width:273px;}
-.keys-box .keys-med{float:left;width:88px;}
+.keys-box .keys-med{float:left;width:88px;height:100%;text-align: center;position:relative;}
 .keys-box .keys-right{float:left;width:273px;}
 
 
 
-.key-list-box{border:1px solid #d2d2d2;height:794px;}
+.key-list-box{border:1px solid #d2d2d2;}
 .key-list-box li{padding:28px 0;font-size:12px;text-align: center;border-bottom:1px solid #d2d2d2;}
 /*.key-list-box li:not(:last-child){border-bottom:1px solid #d2d2d2;}*/
 .key-list-box li a{display:block;text-decoration:none;margin:-28px 0;padding:28px 0;font-size:12px;text-align: center;color:#666;}
-.key-list-box li.active{background-color:#6b95ff;color:#FFF;}
-.key-list-box li.active a{color:#FFF;}
+.key-list-box li.active{background-color:#dee7ff;color:#FFF;}
+.key-list-box li.active a{}
+.key-list-box .key-list-head{height: 76px;background-color:#6b95ff;border-bottom:1px solid #d2d2d2;padding:28px 0;}
+.key-list-box .key-list-head h4{margin: 0;text-align: center;color:#FFF;}
+.key-list-box .key-ul{height:718px;}
 
 
+
+.keys-med a{position: absolute;top:50%;left:50%;text-decoration: none;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);}
 
 
 

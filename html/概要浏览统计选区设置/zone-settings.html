@@ -82,7 +82,7 @@
                             <h5>全局设置</h5>
                         </div>
                         <div class="settings-body">
-                            <div class="list-box" style="height:731px;">
+                            <div class="list-box scroll-box" style="height:731px;">
                                 <ul class="list-ul-box">
                                     <li class="list-item">
                                         <a class="soo soo-navigate_next" href="javascript:void(0);">蔬菜研究</a>
@@ -312,27 +312,49 @@
                     <div class="keys-box clearfix">
                         <div class="keys-left">
                             <div class="key-list-box">
-                                <ul>
-                                    <li class="active"><a href="javascript:void(0);">字头字</a></li>
-                                    <li><a href="javascript:void(0);">字头字</a></li>
-                                    <li><a href="javascript:void(0);">字头字</a></li>
-                                    <li><a href="javascript:void(0);">字头字</a></li>
-                                    <li><a href="javascript:void(0);">字头字</a></li>
-                                </ul>
+                                <div class="key-list-head">
+                                    <h4>隐藏字段</h4>
+                                </div>
+                                <div class="scroll-box key-ul">
+                                    <ul class="hide-keys">
+                                        <li class="active"><a href="javascript:void(0);">字头字</a></li>
+                                        <li><a href="javascript:void(0);">字头字</a></li>
+                                        <li><a href="javascript:void(0);">字头字</a></li>
+                                        <li><a href="javascript:void(0);">字头字</a></li>
+                                        <li><a href="javascript:void(0);">字头字</a></li>
+                                    </ul>
+
+                                </div>
+
                             </div>
                         </div>
                         <div class="keys-med">
-                            a
+                            <a id="exchange" href="javascript:void(0);" class="soo soo-refresh"></a>
                         </div>
                         <div class="keys-right">
-                            <div class="key-list-box">
-                                <ul>
-                                    <li class="active"><a href="javascript:void(0);">字头字</a></li>
-                                    <li><a href="javascript:void(0);">字头字</a></li>
-                                    <li><a href="javascript:void(0);">字头字</a></li>
-                                    <li><a href="javascript:void(0);">字头字</a></li>
-                                    <li><a href="javascript:void(0);">字头字</a></li>
-                                </ul>
+                            <div class="key-list-box ">
+                                <div class="key-list-head">
+                                    <h4>显示字段</h4>
+                                </div>
+                                <div class="scroll-box key-ul">
+                                    <ul class="show-keys">
+                                        <li class=""><a href="javascript:void(0);">关键字</a></li>
+                                        <li><a href="javascript:void(0);">关键字</a></li>
+                                        <li><a href="javascript:void(0);">关键字</a></li>
+                                        <li><a href="javascript:void(0);">关键字</a></li>
+                                        <li><a href="javascript:void(0);">关键字</a></li>
+                                        <li><a href="javascript:void(0);">关键字</a></li>
+                                        <li><a href="javascript:void(0);">关键字</a></li>
+                                        <li><a href="javascript:void(0);">关键字</a></li>
+                                        <li><a href="javascript:void(0);">关键字</a></li>
+                                        <li><a href="javascript:void(0);">关键字</a></li>
+                                        <li><a href="javascript:void(0);">关键字</a></li>
+                                        <li><a href="javascript:void(0);">关键字</a></li>
+                                        <li><a href="javascript:void(0);">关键字</a></li>
+                                        <li><a href="javascript:void(0);">关键字</a></li>
+                                        <li><a href="javascript:void(0);">关键字</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -352,7 +374,8 @@
 <script src="../../js/jquery.nicescroll.min.js"></script>
 <script>
     $(document).ready(function(){
-        $(".list-box").niceScroll({cursorcolor:"#dee7ff"})
+        $(".scroll-box").niceScroll({cursorcolor:"#dee7ff",boxzoom:false,autohidemode:false})
+
         $(".list-item").click(function(){
             if($(this).hasClass("active")){
                 return false;
@@ -360,6 +383,33 @@
             $(this).addClass("active").siblings().removeClass("active")
 
         })
+
+        $(".key-list-box").delegate("li","click",function () {
+            if($(this).hasClass("active")){
+               return false;
+            }
+
+            $(".key-list-box li").removeClass("active")
+            $(this).addClass("active")
+
+        })
+        
+        
+        $("#exchange").click(function () {
+            debugger
+            active_li = $(".key-list-box li.active")
+            if(active_li.closest(".hide-keys").length){
+                $(".key-list-box .show-keys").append(active_li.remove())
+            }else{
+                $(".key-list-box .hide-keys").append(active_li.remove())
+            }
+        })
+
+        $(window).resize(function(){
+            $(".scroll-box").getNiceScroll().resize();
+        })
+
+
     })
 </script>
 </body>

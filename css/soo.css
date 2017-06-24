@@ -41,6 +41,8 @@
 
 .soo-copy:before { content: "\e64f"; }
 
+.soo-refresh:before { content: "\e629"; }
+
 .soo-jia:before { content: "\e622"; }
 
 .soo-new:before { content: "\e623"; }
@@ -81,4 +83,6 @@
 
 .soo-see:before { content: "\e738"; }
 
-.soo-navigate_next:before { content: "\e777"; position: absolute;right:7px;}
+
+
+.soo-navigate_next:before { content: "\e777";  position: absolute;right:7px;}
