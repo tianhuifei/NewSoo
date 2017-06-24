@@ -66,6 +66,25 @@ ul{list-style:none;padding:0;margin:0;}
 .soo-tab-main { display:inline-block;min-width:66px;padding:7px 9px;margin:0 5px;margin-bottom:5px;cursor:pointer;border-radius:2px;color:#333;font-size:12px;background-color:#e8f4ff;text-align:center;}
 .soo-tab-main.active{background-color:#6490ff;color:#FFF;}
 .soo-tab-main.disable{cursor: auto;background-color: #f5f5f5;color:#6e6e6e;}
+
+
+
+.settings-box{height: 794px;border:1px solid #e5e5e5;border-bottom:none;}
+.settings-box .settings-header{width:100%;background-color: #f7f7f7;padding:25px 0;}
+.settings-box .settings-header h5{font-size:12px;margin:0;color:#666;text-align: center;}
+.settings-box .settings-body{height:731px;}
+.list-box{}
+.list-box .list-ul-box{}
+.list-box .list-ul-box li{position: relative;padding:5px 15px;}
+.list-box .list-ul-box .list-item{position: relative;padding:5px 15px;}
+.list-box .list-ul-box .list-item a{color:#666;}
+.list-box .list-ul-box .list-item>a:hover{background-color:#eee;}
+.list-box .list-ul-box .list-item.active>a{background-color:#6490ff;color:#FFF;}
+
+.list-box .list-ul-box .list-item.active>ul{display:block;}
+.list-box .list-ul-box .list-item a{text-decoration: none;font-size:14px;position:relative;display:block;margin:-5px -15px;padding:5px 15px;}
+.list-box .list-ul-box .list-item ul{display:none; margin-top: 5px;  margin-right: -15px;  margin-bottom: -5px;  margin-left: -15px;border: 0;}
+.list-box .list-ul-box .list-item ul li{padding-left:30px;}
 /** 田会飞 **/
 
 
