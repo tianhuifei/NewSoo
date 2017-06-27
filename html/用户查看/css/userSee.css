@@ -197,11 +197,11 @@ padding-bottom: 20px;
     margin: 20px 60px;
 }
 
-.right-select .panel-body div:first-child{
+/*.right-select .panel-body div:first-child{
     height: 427px;
     border-bottom: 1px #eeeeee solid;
     width: auto;
-}
+}*/
 /*.permission-manage .fix-width{
 
     display: inline-block;

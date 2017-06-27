@@ -396,6 +396,9 @@ ul{list-style:none;padding:0;margin:0;}
     background-color: #6490ff;
     color: #fff;
 }
+.position-now{
+    color: #7798ff!important;
+}
 
 @media (max-width: 820px) {
     .bottom-btn-group{
@@ -536,6 +539,70 @@ ul{list-style:none;padding:0;margin:0;}
         width: 82%;
     }
 }*/
+
+.right-bottom-square{
+    width: 142px;
+    height: 166px;
+    z-index: 9999999;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+}
+.big-square{
+    position: absolute;
+    top: 24px;
+    right: 0;
+    background-color: #7dd4ed;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    opacity: 0.7;
+    background: -webkit-linear-gradient(#608fd3, #81ddf1);
+    background: -o-linear-gradient(#608fd3, #81ddf1);
+    background: -moz-linear-gradient(#608fd3, #81ddf1);
+    background: linear-gradient(#608fd3, #81ddf1);
+    color: #fff;
+}
+.big-square:before{
+    font-size: 55px;
+    padding: 17px;
+}
+.small-square{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    opacity: 0.7;
+    color: #fff;
+}
+.small-square:before{
+    font-size: 25px;
+    padding: 8px;
+}
+.small-save{
+    top: 0;
+    left: 18px;
+    background-color: #6193d5;
+}
+.small-pdf{
+    left: 0;
+    top: 50px;
+    background-color: #4d80c1;
+}
+.small-daoru{
+    left: 18px;
+    top: 100px;
+    background-color: #6396d5;
+}
+.small-daoru:before{
+    padding: 3px!important;
+}
+.small-add{
+    left: 66px;
+    bottom: 0;
+    background-color: #6193d5;
+}
+
 
 /** 王小晴 **/
 
