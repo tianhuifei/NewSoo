@@ -74,38 +74,46 @@
             <div class="home-container-top-conventionalSearch-fields">
                 <!--<div class="container-fluid">-->
                     <div class="row">
-                        <div class="col-lg-1 col-md-4 col-xs-6 fields">全部</div>
-                        <div class="col-lg-1 col-md-4 col-xs-6 fields fields-active">文献号</div>
-                        <div class="col-lg-1 col-md-4 col-xs-6 fields">关键词</div>
-                        <div class="col-lg-2 col-md-4 col-xs-6 fields">申请人/专利权人</div>
-                        <div class="col-lg-2 col-md-4 col-xs-6 fields">发明人/设计人 </div>
-                        <div class="col-lg-2 col-md-4 col-xs-6 fields">代理机构/代理人 </div>
-                        <div class="col-lg-1 col-md-4 col-xs-6 fields">地址</div>
-                        <div class="col-lg-1 col-md-4 col-xs-6 fields"><i class="glyphicon glyphicon-cog"></i></div>
+                        <div class="col-md-6">
+                            <div class=" col-md-2 col-xs-6 fields"><a href="javascript:void(0);">全部</a> </div>
+                            <div class=" col-md-2 col-xs-6 fields fields-active"><a href="javascript:void(0);">文献号</a> </div>
+                            <div class=" col-md-4 col-xs-6 fields"><a href="javascript:void(0);">关键词</a> </div>
+                            <div class=" col-md-4 col-xs-6 fields"><a href="javascript:void(0);">申请人/专利权人</a> </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class=" col-md-4 col-xs-6 fields"><a href="javascript:void(0);">发明人/设计人</a>  </div>
+                            <div class=" col-md-4 col-xs-6 fields"><a href="javascript:void(0);">代理机构/代理人</a>  </div>
+                            <div class=" col-md-2 col-xs-6 fields"><a href="javascript:void(0);">地址</a> </div>
+                            <div class=" col-md-2 col-xs-6 fields"><i class="glyphicon glyphicon-cog"></i></div>
+                        </div>
+
+
                     </div>
                 <!--</div>-->
             </div>
             <div class="home-container-top-conventionalSearch-search">
                 <!--<div class="container-fluid">-->
                     <div class="row">
-                        <div class="col-lg-8 col-md-12 col-xs-12 home-container-top-conventionalSearch-searchInput clear">
-                            <img src="images/search.png" width="22" height="22">
-                            <input type="text" placeholder="请输入文献号，如：CN201010230977"/>
+                        <div class=" col-md-8 col-xs-12 ">
+                            <div class="home-container-top-conventionalSearch-searchInput clear">
+                                <img src="images/search.png" width="22" height="22">
+                                <input type="text" placeholder="请输入文献号，如：CN201010230977"/>
+                            </div>
                         </div>
-                        <div class="col-lg-2 col-md-8 col-xs-12"><div class="home-container-top-conventionalSearch-btn"><div>搜&nbsp;&nbsp;&nbsp;索</div></div></div>
-                        <div class="col-lg-2 col-md-4 col-xs-12 home-container-top-conventionalSearch-extends">
-                            <ul class="clear">
-                                <li class="clear">
-                                    <input type="checkbox" checked id="home-conventionalSearch-wordExtends">
-                                    <label for="home-conventionalSearch-wordExtends" class="home-conventionalSearch-wordExtends">词扩展</label>
+                        <div class=" col-md-2 col-xs-12"><div class="home-container-top-conventionalSearch-btn"><div>搜&nbsp;&nbsp;&nbsp;索</div></div></div>
+                        <div class=" col-md-2 col-xs-12 ">
+                            <ul class="clearfix search-key">
+                                <li class="clearfix">
+
+                                    <label><input type="checkbox" checked >词扩展</label>
                                 </li>
-                                <li class="clear">
-                                    <input type="checkbox" id="home-conventionalSearch-manExtends">
-                                    <label for="home-conventionalSearch-manExtends">人扩展</label>
+                                <li class="clearfix">
+
+                                    <label ><input type="checkbox" >人扩展</label>
                                 </li>
-                                <li class="clear">
-                                    <input type="checkbox" id="home-conventionalSearch-languages">
-                                    <label for="home-conventionalSearch-languages">跨语言</label>
+                                <li class="clearfix">
+
+                                    <label ><input type="checkbox" >跨语言</label>
                                 </li>
                             </ul>
                         </div>
@@ -136,22 +144,22 @@
         <div class="home-container-top-searchMode">
             <!--<div class="container-fluid">-->
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 col-xs-6">
+                    <div class=" col-md-3 col-xs-6">
                         <div class="home-container-top-searchMode-seniorSearch">
                             高级检索
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-xs-6">
+                    <div class=" col-md-3 col-xs-6">
                         <div class="home-container-top-searchMode-seniorSearch searchMode-active">
                             MLT检索
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-xs-6">
+                    <div class=" col-md-3 col-xs-6">
                         <div class="home-container-top-searchMode-seniorSearch">
                             智能检索
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-xs-6">
+                    <div class=" col-md-3 col-xs-6">
                         <div class="home-container-top-searchMode-seniorSearch">
                             批量检索
                         </div>
@@ -163,11 +171,8 @@
     </div>
     <div class="home-container-bottom">
         <div class="home-container-bottom-h1">
-           <div class="row">
-               <div class="col-lg-12 col-md-12 col-xs-12 home-container-bottom-h1-cursor">
-                   <span>近期检索历史</span><span class="caret"></span>
-               </div>
-           </div>
+            <h4><span>近期检索历史</span><span class="caret"></span></h4>
+
        </div>
         <div class="home-container-bottom-table">
             <table class="table table-striped">
@@ -227,5 +232,6 @@
 
 <script src="../../js/jquery-1.12.3.js"></script>
 <script src="../../js/bootstrap.js"></script>
+
 </body>
 </html>

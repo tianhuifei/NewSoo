@@ -1,12 +1,12 @@
 /*头部header*/
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
-    padding-right: 0px;
-    padding-left: 0px;
-}
-.row {
-    padding-left: 10px;
-    padding-right: 10px;
-}
+.search-key input{margin:0;}
+.search-key {text-align: center;}
+.search-key label{padding:5px 0;}
+.home-container-top-conventionalSearch-fields{text-align: center  ;}
+.home-container-top-conventionalSearch-fields a{color:#FFF;text-decoration: none;}
+.home-container-top-conventionalSearch-fields a:hover{color:#FFF;}
+
+
 .home-container-top-conventionalSearch-extends ul li{
     list-style: none;
     padding-bottom:15px;
@@ -16,16 +16,12 @@
     padding-left:12px;
 }
 .home-container-top-conventionalSearch-extends ul li input{
-    display: block;
-    float: left;
-    margin-right: 10px;
-    margin-top:23px;
+
+
+
 }
 @media (min-width: 1200px) {
-    .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
-        padding-right: 0px;
-        padding-left:15px;
-    }
+
     .home-container-top-conventionalSearch-extends{
         margin-top: -18px;
     }
@@ -113,6 +109,7 @@
 }
 .home-container-top-conventionalSearch-Scope{
     font-size: 12px;
+    text-align: center;
 }
 .home-container-top-conventionalSearch-Scope .btn-china{
     min-width:74px;
@@ -140,6 +137,7 @@
 }
 .home-container-top-searchMode{
     margin-top: 144px;
+    margin-bottom:104px;
 }
 .home-container-top-searchMode .home-container-top-searchMode-seniorSearch{
     border-radius: 50%;
@@ -150,8 +148,8 @@
     color:#333366;
     font-size: 18px;
     text-align: center;
+    margin:0 auto;
     opacity:0.7;
-    margin-bottom: 100px;
     cursor: pointer;
 }
 .home-container-top-searchMode .searchMode-active{
@@ -160,7 +158,6 @@
 }
 /*近期检索历史*/
 .home-container-bottom{
-    width: 100%;
     font-size: 14px;
     font-family: "Microsoft YaHei";
 }
@@ -196,3 +193,5 @@
     color:#ccccff;
     cursor: pointer;
 }
+
+
