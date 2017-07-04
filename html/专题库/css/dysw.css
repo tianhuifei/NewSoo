@@ -74,6 +74,9 @@
 .show-list-btn{
     position: absolute;top:50%;right: -15px; height: 100px;width: 0;border-left: 15px solid #6490ff;
     border-top: 15px solid transparent;border-bottom: 15px solid transparent;transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+
 }
 .callin{
     height:0;width: 0;border: 8px solid #fff;border-color: transparent #fff transparent transparent;position: absolute;left: -20px;top: 25px;
@@ -91,24 +94,46 @@
 .show-big{
     margin-left: 0!important;
     animation-name: showbig;
+    -moz-animation-name: showbig;
     animation-duration: 1s;
     animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-duration: 1s;
+    -webkit-animation-duration: 1s;
 }
 .show-small{
     margin-left: 205px!important;
     animation-name: showsmall;
     animation-duration: 1s;
     animation-iteration-count: 1;
+    -moz-animation-duration: 1s;
+    -webkit-animation-duration: 1s;
 }
 .left-list-show{
     transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    transition-duration: 1s;
     -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
 }
 .left-list-hide{
     transform: translateX(-200px);
+    -moz-transform: translateX(-200px);
+    -webkit-transform: translateX(-200px);
     -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    transition-duration: 1s;
 }
 @keyframes showbig{
+    0% {
+        margin-left: 205px;
+    }
+    100% {
+        margin-left: 0;
+    }
+}
+@-moz-keyframes showbig {
     0% {
         margin-left: 205px;
     }
@@ -122,6 +147,14 @@
     }
     100% {
         margin-left:205px;
+    }
+}
+@-moz-keyframes showsmall {
+    0% {
+        margin-left: 205px;
+    }
+    100% {
+        margin-left: 0;
     }
 }
 .selectcar{
