@@ -90,24 +90,27 @@
 }
 .right-part{
     margin-left: 205px;
+    transition: margin-left 1s;
+    -webkit-transition: margin-left 1s; /* Safari */
 }
 .show-big{
     margin-left: 0!important;
-    animation-name: showbig;
+
+   /* animation-name: showbig;
     -moz-animation-name: showbig;
     animation-duration: 1s;
     animation-iteration-count: 1;
     -moz-animation-iteration-count: 1;
     -moz-animation-duration: 1s;
-    -webkit-animation-duration: 1s;
+    -webkit-animation-duration: 1s;*/
 }
 .show-small{
     margin-left: 205px!important;
-    animation-name: showsmall;
+    /*animation-name: showsmall;
     animation-duration: 1s;
     animation-iteration-count: 1;
     -moz-animation-duration: 1s;
-    -webkit-animation-duration: 1s;
+    -webkit-animation-duration: 1s;*/
 }
 .left-list-show{
     transform: translateX(0px);
