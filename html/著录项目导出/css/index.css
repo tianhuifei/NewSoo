@@ -1,0 +1,139 @@
+.container-fluid.container-fluid-body{
+    padding-left: 0;
+    padding-right: 0;
+}
+.container-fluid-body .container-header{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.container-content{
+    position: relative;
+    border-bottom: 1px solid rgb(238,238,238);
+}
+.container-content .left-side{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 185px;
+}
+.container-content .right-side{
+    margin-left: 185px;
+    border-left: 1px solid rgb(238,238,238);
+}
+.container-content .left-side .checkbox-item{
+    padding: 20px 0;
+}
+.container-content .left-side .checkbox-item.active{
+    background-color: rgb(222,231,255);
+}
+.container-content .left-side .checkbox-item span{
+    font-size: 14px;
+    color: rgb(91,91,91);
+    font-weight: bold;
+}
+.container-content .right-side .section{
+    border-bottom: 1px solid rgb(238,238,238);
+    padding-bottom: 10px;
+}
+.right-side .section .section-header{
+    color: rgb(91,91,91);
+    font-size: 14px;
+    font-weight: bold;
+    padding: 20px 0 20px 55px;
+}
+.right-side .section .section-body{
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.custom-list-item span{
+    font-size: 14px;
+    color: rgb(102,102,102);
+}
+.custom-list-item .square_off{
+    position: relative;
+    top: 1px;
+    margin-left: 0;
+}
+.custom-list-item span.special{
+    color: rgb(153,153,153);
+}
+.custom-list-item{
+    padding: 10px 0;
+}
+.custom-list-item input[type='text']{
+    width: 70px;
+    height: 20px;
+    padding: 2px 3px;
+    background-color: rgb(238,238,238);
+    border: none;
+    margin: 0;
+    text-align: center;
+}
+.custom-list-item input[type='text']:focus{
+    outline: none;
+    border: none;
+}
+.custom-list-item input[type='text']:active{
+    outline: none;
+    border: none;
+}
+.list-horizontal{
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.list-horizontal li{
+    float: left;
+}
+.list-horizontal li.format-item{
+    width: 56px;
+    height: 64px;
+    margin-right: 14px;
+    border: 1px solid rgb(210,210,210);
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 3px;
+}
+.list-horizontal li.format-item.active{
+    border-color: rgb(119,152,255);
+}
+.custom-list-item .custom-list-item-wrapper{
+    position: relative;
+    padding-left: 130px;
+}
+.custom-list-item .custom-list-item-wrapper .list-checkbox{
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 30px;
+}
+.custom-list-item .custom-list-item-wrapper .list-content{
+    overflow: hidden;
+}
+.list-content .list-content-item{
+    float: left;
+    background-color: rgb(243,243,243);
+    padding: 5px 15px;
+    color: rgb(90,90,90);
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 2px;
+    margin-right: 12px;
+    margin-bottom: 8px;
+}
+.list-content .list-content-item.active{
+    color: #fff;
+    background-color: rgb(100,144,255);
+}
+.container-content .right-side .section.section-button{
+    border-bottom: none;
+    text-align: center;
+    padding: 56px 0 64px 0;
+}
+.btn-export{
+    background-color: rgb(119,152,255);
+    font-size: 14px;
+    color: #fff;
+    padding: 18px 75px;
+
+}
+
