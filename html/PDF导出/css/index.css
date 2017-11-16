@@ -1,0 +1,31 @@
+.lightgray {
+    color: #999
+}
+
+.grayground {
+    outline: none;
+    background-color: #eee;
+    border:0;
+    margin: 0 5px;
+    width:72px;
+    text-align: center;
+}
+
+.pdfrightpart {
+    padding: 25px 40px;
+    border-bottom: 1px solid #EEE;
+}
+
+.pdf-right {
+    padding: 0 25px;
+}
+.btn-box{
+    width:209px;
+    margin:0  auto;
+    margin-top:67px;
+}
+.btn-box button{
+    outline: none;
+    padding-left:72px;
+    padding-right:72px;
+}

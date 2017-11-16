@@ -10,6 +10,7 @@ ul{list-style:none;padding:0;margin:0;}
 .w20{width:20%;}
 .w50{width:50%;}
 .w30{width:30%;}
+.m-b-0{margin-bottom:0 !important;}
 .t-l{text-align: left !important;}
 .table-h-center th{text-align: center !important;}
 
@@ -880,3 +881,167 @@ input.p-check-all{
 /** 李晶 **/
 
 
+
+
+/**增量 更新 2017.11.14**/
+.checked-box{
+
+}
+.checked-box input[type=checkbox]{
+    margin-top:0;
+    margin-right:5px;
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width:12px;
+    height:12px;
+    vertical-align: middle;
+    background: url("../images/checkbox.png") no-repeat left center;
+}
+.checked-box input[type=checkbox]:checked{
+    width:12px;
+    height:12px;
+    background: url("../images/checkbox-active.png") no-repeat left center;
+}
+.assist-dialog-title{
+    background-color:#7798ff;
+    color:#FFF;
+    -webkit-border-radius: 6px 6px 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+.assist-dialog .modal-title{
+    font-size:14px;
+}
+.assist-dialog .assist-meu{
+    border-bottom:1px solid #EEE;
+    padding:0 15px;
+    margin:0 -15px;
+}
+.assist-dialog .assist-meu li{
+    padding:10px;
+    margin:0 7px;
+    float: left;
+
+}
+.assist-dialog .assist-meu li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin: -10px;
+    background-color:#EEE;
+    color:#666;
+    border-radius: 6px 6px 0 0;
+}
+.assist-dialog .assist-meu li.active a{
+    background-color:#6b95ff;
+    color:#FFF;
+}
+.width-1050{
+    width:1050px !important;
+}
+.assist-search-box{
+    padding:25px 10px;
+}
+.assist-search-right{
+    margin-left:20px;
+}
+.neusoo-input{
+    outline: none;
+    background-color: #EEE;
+}
+.assist-search-box .assist-input{
+    width:600px;
+}
+.help-a{
+    color:#666;
+    font-size: 14px;
+}
+.assist-main-box{
+    width:100%;
+}
+.assist-main-box .assist-left{
+    width:462px;
+    float:left;
+    height:565px;
+    border:1px solid #dcdcdc;
+}
+.assist-main-box .assist-middle{
+    width:90px;
+    float:left;
+    height:565px;
+    position: relative;
+}
+.assist-main-box .assist-right{
+    width:462px;
+    float:left;
+    height:565px;
+    border:1px solid #dcdcdc;
+}
+.assist-middle .left-right{
+    height:133px;
+    width:90px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-left:-45px;
+    margin-top:-66.5px;
+    text-align: center;
+}
+.assist-middle .left-right div{
+    padding:20px;
+}
+.assist-middle .left-right div a{
+    display: block;
+    font-size:20px;
+}
+.assist-main-box .list-group-item{
+    padding-left:25px;
+    cursor: pointer;
+    position: relative;
+    border-bottom:1px solid #ddd;
+    margin-top:1px;
+    height: auto !important;
+    min-height:56px ;
+}
+.assist-main-box .list-group-item .assist-show{
+    position: absolute;
+    left:5px;
+    top:0px;
+}
+.assist-item-box{display: none;}
+.table-t-center th{text-align: center;background-color: #dee7ff;}
+.border-b-1{border-bottom:1px solid #ddd;}
+
+.applicant .assist-left{
+    width:600px;
+}
+.applicant .assist-right{
+    float:right;
+    width:380px;
+}
+.assist-main-box .assist-title{
+    margin:0;
+    background-color:#dee7ff;
+    font-size:14px;
+    color:#333;
+    padding:8px 5px;
+    height:46px;
+}
+.assist-main-box .assist-title p{
+    height:30px;
+    margin: 0;
+    line-height: 30px;
+}
+.applicant .list-group .list-group-item .list-group{margin-bottom:-1px;}
+.applicant .list-group .list-group-item .list-group .list-group-item:last-child{
+    margin-bottom: 0 !important;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.assist-main-box .delete-li .list-group-item{padding:0 15px;padding-right:25px;cursor: auto;}
+.assist-main-box .delete-li .delete-li-icon{
+    position: absolute; right:10px;top:21px; cursor: pointer}
+/**增量 更新 2017.11.14**/

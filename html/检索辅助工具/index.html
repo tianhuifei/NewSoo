@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>检索辅助工具</title>
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <link rel="stylesheet" href="../../css/public.css">
+    <link rel="stylesheet" href="../../css/soo.css">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div class="container">
+    <div class="" style="width:100px;height:50px;margin:0 auto;margin-top:100px;">
+        <button class="btn btn-primary" data-toggle="modal" data-target="#myModal" > 打开辅助工具 </button>
+    </div>
+
+
+    <div class="modal fade bs-example-modal-lg " id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg width-1050" role="document">
+            <div class="modal-content assist-dialog">
+                <div class="modal-header assist-dialog-title">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">辅助检索工具</h4>
+                </div>
+                <div class="modal-body">
+                   <div class="assist-meu">
+                       <ul class="clearfix" id="assist-meu-ul">
+                           <li class="active"><a href="javascript:void(0);">申请人</a></li>
+                           <li class=""><a href="javascript:void(0);">IPC分类</a></li>
+                           <li class=""><a href="javascript:void(0);">CPC分类</a></li>
+                           <li><a href="javascript:void(0);">EC分类</a></li>
+                           <li><a href="javascript:void(0);">UC分类</a></li>
+                           <li><a href="javascript:void(0);">洛加诺分类</a></li>
+                           <li><a href="javascript:void(0);">国民经济分类</a></li>
+                           <li><a href="javascript:void(0);">相关词</a></li>
+                           <li><a href="javascript:void(0);">双语词典</a></li>
+                           <li><a href="javascript:void(0);">国别代码</a></li>
+                           <li><a href="javascript:void(0);">省别代码</a></li>
+                       </ul>
+                   </div>
+                    <div class="assist-search-box clearfix">
+                        <div class="pull-left">
+                            <div class="dropdown">
+                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                    Dropdown
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Separated link</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <form class="form-inline assist-search-right pull-left">
+                            <div class="form-group">
+                                <input type="password" class="form-control neusoo-input assist-input"  placeholder="Password">
+                            </div>
+                            <button type="submit" class="btn btn-primary">查询</button>
+                            <button type="button" class="btn btn-default" disabled="disabled">查询</button>
+                            <a href="#" class="help-a"> 使用帮助 </a>
+                        </form>
+                    </div>
+                   <div class="assist-content">
+
+                       <div class="assist-item-box applicant" style="display: block;">
+                           <div class="assist-main-box clearfix">
+                               <div class="assist-left">
+                                   <h5 class="border-b-1 assist-title"><p>申请（专利权）人名称（双击选中）</p></h5>
+                                   <ul class="list-group">
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                           <ul class="list-group">
+                                               <li class="list-group-item">
+                                                   <span class="soo soo-add assist-show"></span>
+                                                   哈哈哈
+                                               </li>
+                                               <li class="list-group-item">
+                                                   <span class="soo soo-add assist-show"></span>
+                                                   哈哈哈
+                                               </li>
+                                           </ul>
+                                       </li>
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                   </ul>
+                               </div>
+                               <div class="assist-right">
+                                   <h5 class="border-b-1 assist-title">
+                                       <p>申请（专利权）人名称
+                                           <button class="btn btn-default btn-sm pull-right" style="margin-left:5px;">全部取消</button>
+                                           <button class="btn btn-primary btn-sm pull-right">直接检索</button>
+
+                                       </p>
+                                   </h5>
+                                   <ul class="list-group delete-li">
+                                       <li class="list-group-item">
+                                           <span class="glyphicon glyphicon-remove delete-li-icon"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                       <li class="list-group-item">
+                                           <span class="glyphicon glyphicon-remove delete-li-icon"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                       <li class="list-group-item">
+                                           <span class="glyphicon glyphicon-remove delete-li-icon"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                       <li class="list-group-item">
+                                           <span class="glyphicon glyphicon-remove delete-li-icon"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                       <li class="list-group-item">
+                                           <span class="glyphicon glyphicon-remove delete-li-icon"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                   </ul>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="assist-item-box" >
+                           <div class="assist-main-box clearfix">
+                               <div class="assist-left">
+                                   <ul class="list-group">
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                   </ul>
+                               </div>
+                               <div class="assist-middle">
+                                   <div class="left-right">
+                                       <div class="">
+                                           <a href="javascript:void(0)"><span class="glyphicon glyphicon-arrow-left"></span></a>
+                                       </div>
+                                       <div>
+                                           <a href="javascript:void(0)"> <span class="glyphicon glyphicon-arrow-right"></span></a>
+
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="assist-right">
+                                   <ul class="list-group">
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                   </ul>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="assist-item-box" >
+                           <div class="assist-main-box clearfix">
+                               <div class="assist-left">
+                                   <ul class="list-group">
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                   </ul>
+                               </div>
+                               <div class="assist-middle">
+                                   <div class="left-right">
+                                       <div class="">
+                                           <a href="javascript:void(0)"><span class="glyphicon glyphicon-arrow-left"></span></a>
+                                       </div>
+                                       <div>
+                                           <a href="javascript:void(0)"> <span class="glyphicon glyphicon-arrow-right"></span></a>
+
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="assist-right">
+                                   <ul class="list-group">
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                   </ul>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="assist-item-box">4</div>
+                       <div class="assist-item-box">5</div>
+                       <div class="assist-item-box">6</div>
+                       <div class="assist-item-box" >
+                           <div class="assist-main-box clearfix">
+                               <div class="assist-left">
+                                   <ul class="list-group">
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                   </ul>
+                               </div>
+                               <div class="assist-middle">
+                                   <div class="left-right">
+                                       <div class="">
+                                           <a href="javascript:void(0)"><span class="glyphicon glyphicon-arrow-left"></span></a>
+                                       </div>
+                                       <div>
+                                           <a href="javascript:void(0)"> <span class="glyphicon glyphicon-arrow-right"></span></a>
+
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="assist-right">
+                                   <ul class="list-group">
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                       <li class="list-group-item">
+                                           <span class="soo soo-add assist-show"></span>
+                                           b 作业；运输  [201301]
+                                       </li>
+                                   </ul>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="assist-item-box" >
+                       <div class="assist-item-box">9</div>
+                       <div class="assist-item-box">0</div>
+                       <div class="assist-item-box">
+                       <div class="assist-item-box">12</div>
+                   </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">直接检索</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">转入高级检索</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../../js/jquery-1.12.3.js"></script>
+<script src="../../js/bootstrap.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
