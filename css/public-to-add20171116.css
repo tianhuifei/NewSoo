@@ -1,3 +1,37 @@
 .square_off.custom-radio{
     border-radius: 50%;
 }
+
+.container-fluid.container-fluid-body{
+    padding-left: 0;
+    padding-right: 0;
+}
+.container-fluid-body .container-header{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.container-content{
+    position: relative;
+    border-bottom: 1px solid rgb(238,238,238);
+}
+.container-content .left-side{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 185px;
+}
+.container-content .right-side{
+    margin-left: 185px;
+    border-left: 1px solid rgb(238,238,238);
+}
+.container-content .left-side .checkbox-item{
+    padding: 20px 0;
+}
+.container-content .left-side .checkbox-item.active{
+    background-color: rgb(222,231,255);
+}
+.container-content .left-side .checkbox-item span{
+    font-size: 14px;
+    color: rgb(91,91,91);
+    font-weight: bold;
+}

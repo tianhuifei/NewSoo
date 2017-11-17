@@ -1,0 +1,106 @@
+.box-concat{
+    background-color: rgb(244,244,244);
+}
+.box-concat .box-concat-header{
+    padding: 48px 0 120px 0;
+}
+.box-concat .box-concat-header h3{
+    width: 540px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+    color: rgb(151,159,255);
+}
+.box-concat .box-concat-header h3:before{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 8px;
+    background-image: url("../../../images/dots.png");
+    left: 0;
+    top: 50%;
+    margin-top: -4px;
+}
+.box-concat .box-concat-header h3:after{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 8px;
+    background-image: url("../../../images/dots.png");
+    right: 0;
+    top: 50%;
+    margin-top: -4px;
+}
+.box-concat .box-concat-body{
+    padding: 0 20px;
+}
+.panel-concat{
+    margin: 15px 15px 60px 15px;
+    min-height: 393px;
+}
+.panel-concat .panel-heading{
+    padding-top: 85px;
+    padding-bottom: 85px;
+    position: relative;
+}
+.panel-concat .panel-name{
+    text-align: center;
+    font-size: 14px;
+    color: rgb(51,51,51);
+}
+.panel-concat .wrapper-icon{
+    width: 138px;
+    height: 138px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-top: -69px;
+    margin-left: -69px;
+    background-color: #fff;
+}
+.wrapper-icon .inner-icon{
+    position: absolute;
+    width: 114px;
+    height: 114px;
+    border-radius: 50%;
+    left: 12px;
+    top: 12px;
+    color: #fff;
+    text-align: center;
+}
+.wrapper-icon .inner-icon.inner-icon-online{
+    background-color: rgb(255,177,66);
+}
+.wrapper-icon .inner-icon.inner-icon-tel{
+    background-color: rgb(100,144,255);
+}
+.wrapper-icon .inner-icon.inner-icon-email{
+    background-color: rgb(252,84,183);
+}
+.inner-icon .concat-icon{
+    line-height: 114px;
+    font-size: 45px;
+}
+.panel-concat .panel-body ul{
+    list-style-type: disc;
+}
+.panel-concat .panel-body ul li{
+    padding: 15px 0;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.panel-concat .panel-body{
+    padding-bottom: 85px;
+}
+.box-concat .box-concat-footer{
+    text-align: center;
+}
+.box-concat .box-concat-footer .thumbnail{
+    background-color: transparent;
+    border: none;
+    margin-bottom: 0;
+}
+
