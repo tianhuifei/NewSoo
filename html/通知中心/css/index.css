@@ -1,0 +1,70 @@
+@charset "utf-8";
+.notice-box{
+
+}
+.notice-box .notice-item{
+    position: relative;
+    background-color:#f8f8f8;
+    height:60px;
+    margin-top:-1px;
+    margin-left:-1px;
+    border-bottom:1px solid #dcdcdc;
+    border-top:1px solid #dcdcdc;
+    border-left:1px solid #dcdcdc;
+    border-right:1px solid #dcdcdc;
+    padding-left:50px;
+    padding-right:150px;
+
+}
+.notice-box .notice-item.active{
+    background: #dee7ff;
+}
+.notice-box .notice-item .btn{
+    margin-top:12px;
+    margin-right:5px;
+}
+.notice-box .notice-item input[type=checkbox] {
+    position: absolute;
+    top:50%;
+    margin-top:-6px;
+    left:20px;
+}
+
+.notice-box .notice-item .notice-title{
+    padding-left:28px;
+    font-size:12px;
+    color:#5e5e5e;
+    font-weight: bolder;
+    margin-top:10px;
+    background:url("../images/meg.png") no-repeat center left;
+}
+.notice-box .notice-item .notice-title a{
+    color:#5e5e5e;
+    text-decoration: none;
+}
+.notice-box .notice-item .notice-content{
+    color:#929395;
+}
+.notice-box .notice-item .notice-content p{
+    margin:0;
+    padding-top:5px;
+}
+.notice-box .notice-item .notice-content p a{
+    color:#7ca1ff;
+    text-decoration: none;
+}
+.notice-box .notice-item .notice-content .notice-date,.notice-box .notice-item  .notice-info{
+    position: absolute;
+    right:20px;
+    width:85px;
+    color:#7ca1ff;
+    top:20px;
+    text-decoration: none;
+}
+.notice-box .notice-item  .notice-info a{
+    text-decoration: none;
+    color:#5e5e5e;
+}
+.notice-box .notice-item  .notice-info a.active{
+    color:#7ca1ff;
+}
