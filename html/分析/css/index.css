@@ -1,0 +1,238 @@
+.stat{
+    position:absolute;
+    text-align: center;
+    left:0;
+    right:0;
+    margin:0;
+    bottom:-45px;
+}
+.stat p{
+    margin:0;
+}
+.first-input{
+    position: relative;
+}
+.first-line{
+    padding-bottom:30px;
+}
+.analyze-body{
+    background:#f8f8f8;
+    padding:15px;
+}
+.analyze-left{
+    float:left;
+    width:262px;
+
+}
+.analyze-content{
+    margin-left:307px;
+}
+.analyze-left .menu-box{
+    border:1px solid #e5e5e5;
+}
+.analyze-left .menu-box .menu-ul > li{
+    text-decoration: none;
+    border-bottom:1px solid #FFF;
+}
+.analyze-left .menu-box .menu-ul > li:last-child{
+    border-bottom:none
+}
+.analyze-left .menu-box .menu-ul > li > a{
+    padding-left:45px;
+    display:block;
+    height:55px;
+    line-height: 55px;
+    background:#dee7ff;
+    text-decoration: none;
+    color:#7299ff;
+}
+.analyze-left .menu-box .menu-ul > li > a.active{
+    color:#FFF;
+    background:#7798ff;
+}
+.analyze-left .menu-box .menu-ul > li .nemu-item{
+    display:none;
+}
+.analyze-left .menu-box .menu-ul > li .nemu-item a{
+    display:block;
+    height:36px;
+    line-height: 36px;
+    color:#494949;
+    text-align: center;
+    text-decoration: none;
+}
+.analyze-left .menu-box .menu-ul > li .nemu-item a.active,.analyze-left .menu-box .menu-ul > li .nemu-item a:hover{
+    color:#7798ff;
+}
+.analyze-content .analyze-content-top{
+
+}
+.analyze-content .analyze-content-top .analyze-c-btn{
+    height:94px;
+    background:#dee7ff;
+    padding:29px 30px;
+}
+.analyze-content .analyze-content-top .analyze-c-btn button{
+    width:120px;
+    margin-right:20px;
+}
+.analyze-content .analyze-content-top .chart-body{
+
+}
+.analyze-content .analyze-content-bottom  .table-right,.analyze-content .analyze-content-top .chart-body .chart-right{
+    float: right;
+    width:143px;
+}
+ .chart-btn-box{
+     position:relative;
+    text-align: center;
+    padding:10px 0;
+}
+ .chart-btn-box .btn{
+    width:100px;
+}
+.analyze-content .analyze-content-bottom  .table-left ,.analyze-content .analyze-content-top .chart-body .chart-left{
+    margin-right:144px;
+    height:660px;
+}
+.analyze-content .analyze-content-top .chart-body .chart-left .test-img{
+    width:100%;
+    height:100%;
+}
+.analyze-content .analyze-content-bottom{
+    padding-top:33px;
+}
+.analyze-content .analyze-content-bottom  .table-left{
+    background: #FFF;
+    height: auto;
+}
+
+.setting-top{
+    margin-bottom:15px;
+    padding:15px 15px 0 15px;
+}
+.setting-select-title{
+    margin:0;
+    height:34px;
+    line-height: 34px;
+    padding-right:10px;
+    color:#787878;
+    font-size:12px;
+}
+.setting-top .btn-default{
+    background:#eeeeee;
+}
+.setting-content{}
+.setting-content .table{}
+.setting-content .table thead tr{
+    background:#dee7ff;
+}
+.setting-content .table thead tr th .checkbox{
+    float:left;
+    font-size:12px;
+    color:#505050;
+}
+.setting-content .table thead tr th span{
+    color:#6490ff;
+}
+.setting-content .table  .checkbox{
+    margin:0;
+}
+.setting-content .table .checkbox label{
+    height:20px;
+    line-height: 20px;
+}
+
+.setting-content .table thead tr th span{
+   float:right;
+    text-align: right;
+}
+
+.setting-dialog .modal-body{
+padding:0;
+}
+
+.chart-type{
+    float:right;
+}
+.chart-type a{
+    text-decoration: none;
+}
+.chart-type  span{
+    font-size:25px;
+    margin:0 10px;
+    cursor: pointer;
+    color:#a4a4a4;
+}
+.chart-type span.active, .chart-type span:hover{
+    color:#6490ff;
+}
+
+
+.dialog-setting{
+    top:5px;
+    right:5px;
+    width:443px;
+    height:367px;
+    position: absolute;
+    background: #FFF;
+    border-radius: 5px;
+    background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+}
+
+.editBox-dialog{
+
+}
+.editBox-dialog .modal-header{
+    background: #7798ff;
+    border-radius: 5px 5px 0 0;
+}
+.editBox-dialog .modal-header h4{
+    color:#FFF;
+}
+.editBox-dialog .modal-body{
+    padding:0;
+}
+.editBox-dialog .modal-body input[type='text']{
+    background-color: #eeeeee;
+    border-color: #eee;
+    border: none;
+    outline:none;
+    padding:0 5px;
+    width:100%;
+    box-sizing: border-box;
+    height:34px;
+    line-height: 34px;
+}
+.editBox-dialog .modal-body input.split{
+    padding-right:38px;
+}
+.editBox-dialog .modal-body .editBox-dialog-title{
+    width:40%;
+}
+.editBox-dialog .modal-body .editBox-dialog-content{
+    width:60%;
+}
+.editBox-dialog .modal-body td{
+    position: relative;
+}
+.editBox-dialog .modal-body table td{
+    vertical-align: middle;
+}
+.editBox-dialog .modal-body .split-flag {
+    position: absolute;
+    right:15px;
+    top:17px;
+    color:#7798ff;
+    font-size:12px;
+    cursor: pointer;
+}
+
+.editBox-dialog .modal-body .form-inline{
+    padding: 5px;
+    text-align: center;
+    border-top: 1px solid #e5e5e5;
+}
